@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_pca0_high_speed_output" label="PCA0 High Speed Output" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="PCA Frequency Output Example"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>PCA High Speed Output Example&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example project uses the PCA's High Speed Output mode to generate
+a 100KHz square wave on P0.2.
+
+The user can connect an oscilloscope or logic analyzer to pin P0.2
+to view the generated waveform and/or to pin P0.1 to view SYSCLK.&lt;/pre></description>
+    <openedResource>F97x_PCA0_High_Speed_Output.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

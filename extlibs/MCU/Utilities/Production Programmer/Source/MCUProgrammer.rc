@@ -1,0 +1,338 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MCUProgrammer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MCUProgrammer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MCUProgrammer"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Silicon Labs MCU Production Programmer\nVersion 3.50",IDC_STATIC,40,10,132,17,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009-2016",IDC_STATIC,40,32,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MCUPROGRAMMER_DIALOG DIALOGEX 0, 0, 398, 378
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Silicon Labs MCU Production Programmer"
+MENU IDR_MENU1
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Status Log",IDC_STATIC_LOG,7,216,384,155
+    CONTROL         "",IDC_RICHEDIT_LOG,"RICHEDIT",TCS_HOTTRACK | TCS_VERTICAL | TCS_RAGGEDRIGHT | TCS_MULTISELECT | WS_BORDER | WS_VSCROLL | WS_TABSTOP,16,231,366,135
+    GROUPBOX        "Current Configuration",IDC_STATIC,7,7,384,165
+    LTEXT           "Part Number:",IDC_STATIC,21,19,42,8
+    EDITTEXT        IDC_EDIT_PARTNUMBER,18,30,96,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Debug Adapter:",IDC_STATIC,21,48,51,8
+    EDITTEXT        IDC_EDIT_DEBUGADAPTER,18,59,96,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Settings",IDC_STATIC,17,78,102,85
+    CHECKBOX        "Erase code space before programming",IDC_CHECK_ERASECODESPACE,26,94,82,17,BS_MULTILINE
+    CHECKBOX        "Enable flash persistence",IDC_CHECK_FLASH_PERSIST,26,114,82,17,BS_MULTILINE
+    CHECKBOX        "Lock code space after programming",IDC_CHECK_LOCK_CODE_SPACE,26,134,76,17,BS_MULTILINE
+    GROUPBOX        "Hex File(s)",IDC_STATIC,123,19,258,88
+    EDITTEXT        IDC_EDIT_HEX_NOT_BANKED,133,31,238,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_HEX_BANK1,133,49,238,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_HEX_BANK2,133,67,238,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_HEX_BANK3,133,85,238,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Serialization Settings",IDC_STATIC,123,111,257,52
+    CHECKBOX        "Serialize Parts",IDC_CHECK_SERIALIZEPARTS,138,120,60,10
+    LTEXT           "Current Serial Number:",IDC_STATIC,215,123,72,8
+    EDITTEXT        IDC_EDIT_CURRENTSERIALNUMBER,214,133,77,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Serial Increment:",IDC_STATIC,311,123,54,8
+    EDITTEXT        IDC_EDIT_SERIALNUMBERINCREMENT,310,133,57,14,ES_AUTOHSCROLL | ES_READONLY
+    DEFPUSHBUTTON   "P&rogram Device",IDC_BUTTON_PROGRAMDEVICE,7,176,384,36
+    CHECKBOX        "Unicode Format",IDC_CHECK_UNICODE,138,133,66,10
+    CHECKBOX        "Big Endian",IDC_CHECK_ENDIAN,138,146,61,10
+END
+
+IDD_PROGRAMMINGSETTINGS_DIALOG DIALOGEX 0, 0, 535, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Configure Programming Settings"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Configuration",IDC_STATIC,7,7,521,243,WS_GROUP
+    LTEXT           "Part Number:",IDC_STATIC,19,20,42,8
+    COMBOBOX        IDC_COMBO_PARTNUMBER,19,32,111,170,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Debug Adapter:",IDC_STATIC,19,49,51,8
+    COMBOBOX        IDC_COMBO_DEBUGADAPTER,19,59,111,136,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Hex File Location(s)",IDC_STATIC,140,20,367,87,WS_GROUP
+    LTEXT           "Not Banked:",IDC_STATIC_NOT_BANKED,159,34,41,8
+    EDITTEXT        IDC_EDIT_HEXFILE_NOT_BANKED,205,32,278,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE_NOT_BANKED,488,32,11,14
+    LTEXT           "Common+Bank1:",IDC_STATIC_BANK1,145,52,56,8
+    EDITTEXT        IDC_EDIT_HEXFILE_BANK1,205,50,278,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE_BANK1,488,50,11,14
+    LTEXT           "Common+Bank2:",IDC_STATIC_BANK2,145,70,56,8
+    EDITTEXT        IDC_EDIT_HEXFILE_BANK2,205,68,278,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE_BANK2,488,68,11,14
+    LTEXT           "Common+Bank3:",IDC_STATIC_BANK3,145,88,56,8
+    EDITTEXT        IDC_EDIT_HEXFILE_BANK3,205,86,278,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE_BANK3,488,86,11,14
+    GROUPBOX        "Settings",IDC_STATIC,16,111,113,131,WS_GROUP
+    CONTROL         "Erase code space before programming",IDC_CHECK_ERASECODESPACE,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_GROUP | WS_TABSTOP,22,121,78,19
+    CONTROL         "Enable flash persistence",IDC_CHECK_FLASHPERSIST,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,22,143,82,17
+    CONTROL         "Lock code space after programming",IDC_CHECK_LOCK_CODE_SPACE,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,22,163,76,20
+    LTEXT           "Write Lock\n(0x1FFFF):",IDC_STATIC_WRITE_LOCK_BYTE,32,187,40,17
+    EDITTEXT        IDC_EDIT_WRITE_LOCK_BYTE,76,189,21,14,ES_AUTOHSCROLL
+    LTEXT           "Read Lock\n(0x1FFFF):",IDC_STATIC_READ_LOCK_BYTE,32,206,40,17
+    EDITTEXT        IDC_EDIT_READ_LOCK_BYTE,76,208,21,14,ES_AUTOHSCROLL
+    GROUPBOX        "Serialization Settings",IDC_STATIC,139,111,221,131,WS_GROUP
+    CONTROL         "",IDC_CHECK_SERIALIZEPARTS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,143,128,8,10
+    LTEXT           "Starting Serial Number:",IDC_STATIC,148,154,73,8
+    EDITTEXT        IDC_EDIT_STARTINGSERIALNUMBER,148,164,83,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Serial Increment:",IDC_STATIC,270,143,54,8
+    EDITTEXT        IDC_EDIT_SERIALNUMBERINCREMENT,270,153,83,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Serial Number Size:",IDC_STATIC,148,184,62,8
+    COMBOBOX        IDC_COMBO_SERIALNUMBERSIZE,148,194,83,86,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Serial Number \nCode Location (Hex)",IDC_STATIC,270,170,83,17
+    EDITTEXT        IDC_EDIT_SERIALNUMBERCODELOCATION,270,188,83,14,ES_AUTOHSCROLL
+    LTEXT           "Max Serial Number:",IDC_STATIC,148,212,62,8
+    EDITTEXT        IDC_EDIT_MAXSERIALNUMBER,148,222,83,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    LTEXT           "Number of Parts in \nSerial Range:",IDC_STATIC,270,204,87,16
+    EDITTEXT        IDC_EDIT_NUMBERPARTSINRANGE,270,222,83,14,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    GROUPBOX        "Action Log",IDC_STATIC,365,111,141,131,WS_GROUP
+    CONTROL         "Log ActionsTo File",IDC_CHECK_LOGTOFILE,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,371,126,75,10
+    CONTROL         "Append To Existing Log",IDC_CHECK_APPENDLOGFILE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,371,141,90,10
+    LTEXT           "Log File Name:",IDC_STATIC,372,155,48,8
+    EDITTEXT        IDC_EDIT_LOGFILE,371,166,111,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE_LOG,487,166,11,14
+    PUSHBUTTON      "Load Settings...",IDC_BUTTON_LOADSETTINGS,7,254,74,14,WS_GROUP
+    PUSHBUTTON      "Save Settings...",IDC_BUTTON_SAVESETTINGS,90,254,74,14
+    DEFPUSHBUTTON   "Accept Settings",IDOK,358,254,74,14
+    PUSHBUTTON      "Cancel",IDCANCEL,478,254,50,14
+    EDITTEXT        IDC_EDIT_CURRENTSERIALNUMBER,270,126,83,14,ES_AUTOHSCROLL
+    LTEXT           "Current Serial Number:",IDC_STATIC,270,117,72,8
+    CONTROL         "",IDC_CHECK_UNICODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,186,128,8,8
+    LTEXT           "Unicode\nFormat",IDC_STATIC,196,123,28,17
+    LTEXT           "Serialize\nParts",IDC_STATIC,154,123,26,18
+    CONTROL         "",IDC_CHECK_ENDIAN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,230,127,8,10
+    LTEXT           "Big \nEndian",IDC_STATIC,239,123,24,21
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,5,0,0
+ PRODUCTVERSION 3,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "MCUProgrammer MFC Application"
+            VALUE "FileVersion", "3.5.0.0"
+            VALUE "InternalName", "MCUProgrammer"
+            VALUE "LegalCopyright", "Copyright (C) 2016"
+            VALUE "OriginalFilename", "MCUProgrammer.EXE"
+            VALUE "ProductName", "MCUProgrammer Application"
+            VALUE "ProductVersion", "3.5.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MCUPROGRAMMER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 391
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 371
+    END
+
+    IDD_PROGRAMMINGSETTINGS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 528
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "&Program Menu"
+    BEGIN
+        MENUITEM "Load Settings...",            ID_PROGRAMMENU_LOADSETTINGS
+        MENUITEM "Save Settings...",            ID_PROGRAMMENU_SAVESETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "C&onfigure Programming Information...", ID_PROGRAMMENU_CONFIGUREPROGRAMMINGINFORMATION
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_PROGRAMMENU_EXIT
+    END
+    MENUITEM "&About...",                   IDM_ABOUTBOX
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROGRAMMINGSETTINGS_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_SERIALNUMBERSIZE, 0x403, 19, 0
+0x2031, 0x7942, 0x6574, 0x2820, 0x6e55, 0x6369, 0x646f, 0x2065, 0x2934, 
+"\000" 
+    IDC_COMBO_SERIALNUMBERSIZE, 0x403, 20, 0
+0x2032, 0x7942, 0x6574, 0x2073, 0x5528, 0x696e, 0x6f63, 0x6564, 0x3820, 
+0x0029, 
+    IDC_COMBO_SERIALNUMBERSIZE, 0x403, 21, 0
+0x2033, 0x7942, 0x6574, 0x2073, 0x5528, 0x696e, 0x6f63, 0x6564, 0x3120, 
+0x2932, "\000" 
+    IDC_COMBO_SERIALNUMBERSIZE, 0x403, 21, 0
+0x2034, 0x7942, 0x6574, 0x2073, 0x5528, 0x696e, 0x6f63, 0x6564, 0x3120, 
+0x2936, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About MCUProgrammer..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\MCUProgrammer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

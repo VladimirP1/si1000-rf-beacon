@@ -1,0 +1,111 @@
+; SLAB_WinUSB_Bulk.inf
+; Silicon Laboratories USB Bulk WinUsb Driver INF
+; Copyright (c) Silicon Laboratories
+
+[Version]
+Signature = "$Windows NT$"
+Class = "USB Bulk Devices"
+ClassGuid={1F29754B-FF09-4FE0-8E86-4276AC900099}
+Provider = %ProviderName%
+DriverVer=11/02/2012,1.00.0000
+CatalogFile=SLAB_WinUSB_Bulk.cat
+
+; ================== Class section ==================
+
+[ClassInstall32]
+Addreg=SLAB_WinUSB_BulkClassReg
+
+[SLAB_WinUSB_BulkClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-1
+
+; ========== Manufacturer/Models sections ===========
+
+[Manufacturer]
+%ProviderName% = SLAB_WinUSB_Bulk_WinUSB,NTx86,NTamd64,NTia64
+
+[SLAB_WinUSB_Bulk_WinUSB.NTx86]
+%USB\MyDevice.DeviceDesc% =USB_Install, USB\VID_10C4&PID_8845
+
+[SLAB_WinUSB_Bulk_WinUSB.NTamd64]
+%USB\MyDevice.DeviceDesc% =USB_Install, USB\VID_10C4&PID_8845
+
+[SLAB_WinUSB_Bulk_WinUSB.NTia64]
+%USB\MyDevice.DeviceDesc% =USB_Install, USB\VID_10C4&PID_8845
+
+; =================== Installation ===================
+
+;[1]
+[USB_Install]
+Include=winusb.inf
+Needs=WINUSB.NT
+
+;[2]
+[USB_Install.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+;[3]
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\winusb.sys
+
+;[4]
+[USB_Install.Wdf]
+KmdfService=WINUSB, WinUsb_Install
+
+[WinUSB_Install]
+KmdfLibraryVersion=1.9
+
+;[5]
+[USB_Install.HW]
+AddReg=Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{7BE00EA9-A77D-4B28-AEDD-89F9AA978EEE}"
+
+;[6]
+[USB_Install.CoInstallers]
+AddReg=CoInstallers_AddReg
+CopyFiles=CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles=11
+
+; ================= Source Media Section =====================
+;[7]
+
+[SourceDisksNames]
+1 = %DISK_NAME%,,,\i386
+2 = %DISK_NAME%,,,\amd64
+3 = %DISK_NAME%,,,\ia64
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller2.dll=1
+WdfCoInstaller01009.dll=1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller2.dll=2
+WdfCoInstaller01009.dll=2
+
+[SourceDisksFiles.ia64]
+WinUSBCoInstaller2.dll=3
+WdfCoInstaller01009.dll=3
+; =================== Strings ===================
+
+[Strings]
+ProviderName="Silicon Laboratories"
+USB\MyDevice.DeviceDesc="Silicon Labs WinUSB Bulk Device"
+WinUSB_SvcDesc="WinUSB Test"
+DISK_NAME="Silicon Labs WinUSB Bulk Driver Install Disk"
+ClassName="USB Bulk Devices"

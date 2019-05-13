@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_ports_portmatch" label="Ports PortMatch" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="Wake from Idle using Port Match"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>Wake from Idle using Port Match&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example project shows how to wakeup the MCU from Idle Mode using
+the Port Match feature.
+
+The user can press button BTN03 to wake the MCU and toggle LED05.
+Power consumption can be measured by connecting an ammeter to JP3.&lt;/pre></description>
+    <openedResource>F97x_Ports_PortMatch.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

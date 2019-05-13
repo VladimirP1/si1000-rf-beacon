@@ -1,0 +1,11 @@
+<project name="F97x_SmaRTClock_Periodic_Alarm_with_Crystal" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="SmaRTClock"/>
+  <folder name="src" uri="src">
+    <file name="F97x_SmaRTClock.c"/>
+    <file name="F97x_SmaRTClock_Periodic_Alarm_with_Crystal.c"/>
+    <file name="F97x_SmaRTClock.h"/>
+  </folder>
+  <includePath languageCompatibility="c asm" uri="unresolved:$%7BProjDirPath%7D/src/"/>
+  <property key="initiallyOpenedResource" value="src/F97x_SmaRTClock_Periodic_Alarm_with_Crystal.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

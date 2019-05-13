@@ -1,0 +1,8 @@
+<project name="F97x_Watchdog" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="Watchdog"/>
+  <folder name="src" uri="src">
+    <file name="F97x_Watchdog.c"/>
+  </folder>
+  <property key="initiallyOpenedResource" value="src/F97x_Watchdog.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

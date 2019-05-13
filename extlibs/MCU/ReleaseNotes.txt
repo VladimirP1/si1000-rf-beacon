@@ -1,0 +1,1386 @@
+Silicon Laboratories IDE Release 5.18 Release Notes
+Copyright (C) 2016 Silicon Laboratories, Inc.
+
+
+This release contains the following components:
+-----------------------------------------------
+
+    * Examples (device examples for all support families)
+        * <Device Family>
+            * Blinky (blinks an LED on device target board) 
+            * <Peripheral> (peripheral examples)
+    * hlp (help files for IDE and Keil Toolset)
+    * IDEfiles (IDE build files)
+    * Utilities
+        * EC Reset (reset utility for EC2 Serial Adapter v1.0)
+        * USB Reset (reset utility for USB Debug Adapter v1.70)
+        * Production Programmer (programming utility v3.50)
+        * Hex2Svf (.HEX to .SVF Conversion Utility v1.31)
+    - IDE.exe (Silicon Labs IDE v5.18.00)
+    - ReleaseNotes.txt (this file)
+    - USBHID.dll (communication dll v1.91)
+
+
+Notes
+-----
+
+	The default target directory for the Silicon Laboratories IDE is 
+	"SiLabs\MCU". 
+
+Release Dates
+-------------
+	IDE Version 5.18 - November 22, 2016	
+	IDE Version 5.17 - October 20, 2016	
+	IDE Version 5.16 - September 1, 2016	
+	IDE Version 5.11 - March 28, 2016	
+	IDE Version 5.10 - February 26, 2016	
+	IDE Version 4.90 - July 18, 2014	
+	IDE Version 4.80 - December 1, 2013	
+	IDE Version 4.70 - November 1, 2013	
+	IDE Version 4.67 - August 30, 2013	
+	IDE Version 4.61.1 - July 31, 2013
+	IDE Version 4.61 - July 31, 2013
+	IDE Version 4.60 - June 19, 2013
+	IDE Version 4.59 - April 1, 2013
+	IDE Version 4.51 - October 31, 2012
+	IDE Version 4.50 - August 1, 2012
+	IDE Version 4.41 - June 15, 2012
+	IDE Version 4.40 - December 7, 2011
+	IDE Version 4.20 - March 1, 2011
+	IDE Version 4.17 - December 16, 2010
+	IDE Version 4.14 - October 26, 2010
+	IDE Version 4.10 - August 3, 2010
+	IDE Version 4.02 - July 20, 2010
+	IDE Version 4.01 - June 30, 2010
+	IDE Version 4.00 - June 30, 2010
+	IDE Version 3.91 - March 1, 2010
+	IDE Version 3.90 - March 1, 2010
+	IDE Version 3.84 - January 12, 2010
+	IDE Version 3.81 - December 14, 2009
+	IDE Version 3.80 - October 28, 2009
+	IDE Version 3.75 - September 30, 2009
+	IDE Version 3.70 - June 3, 2009
+	IDE Version 3.61 - April 27, 2009
+	IDE Version 3.60 - April 27, 2009
+	IDE Version 3.50.01 - March 20, 2009
+	IDE Version 3.50 - March 2, 2009
+	IDE Version 3.42 - October 8, 2008
+	IDE Version 3.41 - September 8, 2008
+	IDE Version 3.40 - July 28, 2008
+	IDE Version 3.32 - July 1, 2008
+	IDE Version 3.31 - May 23, 2008
+	IDE Version 3.30 - April 15, 2008
+	IDE Version 3.20 - February 25, 2008
+	IDE Version 3.10 - December 3, 2007
+	IDE Version 3.00 - September 17, 2007
+	IDE Version 2.91 - March 5, 2007
+	IDE Version 2.90 - February 12, 2007
+	IDE Version 2.82 - October 14, 2006
+
+
+Silicon Laboratories IDE Revision History
+-----------------------------------------
+
+Version 5.18
+	Incorrect lock byte value calculation on F50x/54x/55x/56x/58x devices that blocked flash edits on unlocked regions of 
+	flash fixed.
+
+Version 5.17
+	EFM8BB2 & BB3 XRAM sizes have been increased to correct size.
+	Incorrect calculations of unlocked flash regions on partially locked C2 devices fixed.
+
+Version 5.16
+	Added C8051F54B & C8051F54D device support.
+	Updated EFM8 support to include SB1. BB1 & BB3 automotive device support.
+
+Version 5.11
+	Fix Peripheral Identification Error that occured with certain EFM8SB1 derivatives. (0x02, 0x03, 0x06, 0x09)
+
+Version 5.10
+	Added support for EFM8 BB1/BB2/BB3/UB1/UB2/SB1/SB2/LB1 devices. 
+	Note: Debug support only using a USB debug adapter. For information on accessing the Direct Debug Header refer 
+	to the USB Debug Adapter User's Guide.
+	Examples are available in Simplicity Studio (www.silabs.com/simplicity-studio). 
+
+Version 4.90
+	Added support for C8051F970/1/2/3/4/5 devices.
+	Fixed false error return after C8051F58x/59x flash erase operation.
+
+Version 4.80
+        Added support for Si1060/1/2/3/4/5 devices.
+        Added support for Si1080/1/2/3/4/5 devices.
+
+Version 4.70
+        Added support for C8051F388/9/A/B/C devices.
+
+Version 4.67
+        Fixed a problem which caused the C8051F85x/6x CLKSEL SFR to not update correctly from IDE window.
+
+Version 4.61.1
+        Updated C8051F85x/6x example procedures. 
+        Temp Sensor C8051F85x/6x examples added.
+        Flash C8051F85x/6x example updated.
+
+Version 4.61
+        Added new project support for C8051F850/1/2/3/4/5-GU/IU-GM/IM and C8051F860/1/2/3/4/5-GS/IS devices.
+ 
+Version 4.60
+        Added support for C8051F850/1/2/3/4/5-GU/GM and C8051F860/1/2/3/4/5-GS devices.
+        Firmware for toolstick adapter updated to version 0x0D. Contains baudrate calculation correction.
+
+Version 4.59
+	- Fixed a problem which incorrectly reported that a protected region of flash was being 
+	accessed when attempting to program F93x devices.
+
+        Firmware for the USB Debug Adapter has been updated to Version 0x22.
+        Firmware for the Toolstick Adapter has been updated to Version 0x0C.
+        Firmware for the UDA Adapter has been updated to Version 0x05.
+
+Version 4.51
+	- Fixed incorrect reporting of possible locked device when performing a user 
+	space erase on F58x devices.
+
+Version 4.50
+	Support added for the Hex-386 file format when downloading a hex file.
+
+        - Added support for C8051F390/1/2/3/4/5/6/7/8/9 devices
+        - Added support for C8051F370/1/4/5 devices
+        - Added support for C8051T626/7 devices
+
+Version 4.41
+        Updated flash operations on the following devices: C8051F96x/Si102x/Si103x/Si104x/Si105x 
+        to comply with Rev A Errata #1 (EMIF Split Mode Operation) and #2 (Flash Lock Byte).
+
+        Flash access code has been updated to set the FLEWT bit in the FLSCL SFR for the following devices:
+        C8051F50x\51x, C8041F54x, C8051F55x\56x\57x, C8051F58x\59x when flash is programmed or erased.
+
+        Firmware for the EC2 Serial Adapter has been updated to Version 0x17.
+        Firmware for the USB Debug Adapter has been updated to Version 0x1F.
+        Firmware for the Toolstick Adapter has been updated to Version 0x0B.
+        Firmware for the UDA Adapter has been updated to Version 0x04.
+
+Version 4.40
+	New features/Enhancements
+	-------------------------
+	- Added support for C8051F960/1/2/3/4/5/6/7/8/9 devices
+	- Added support for Si1020/1/2/3/4/5/6/7 devices
+	- Added support for Si1030/1/2/3/4/5/6/7 devices
+
+Version 4.30
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F750/1/2, C8051F750B/1B/2B/5B/6B/7B
+	Added support for C8051F760/1/2/5/6/7
+
+
+Version 4.20
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F380/1/2/3/4/5/6/7 devices
+	Added support for C8051T620/1 and C8051T320/1/2/3 devices
+	Added support for C8051T622/3 and C8051T326/7 devices
+
+
+Version 4.17
+	New Features/Enhancements
+	-------------------------
+	Added support for the Von Neumann memory architecture when using Raisonance.
+
+	Updated the "Tool Chain Integration" dialog and tool definition preset management.
+
+	Added the ability to "Keep current command line flags" when switching between
+	tool definition presets in the "Tool Chain Integration" dialog.
+
+	Updated the help file for the updated "Tool Chain Integration" dialog.
+
+	Added an "Open containing folder..." command to the "File View" context menu
+	when right clicking on a workspace or project file.
+
+	Corrections
+	-----------
+	Fixed the "Keil Linker Options" and "Raisonance Linker Options" dialogs when entering
+	memory address locations.
+
+        A user space erase on a 128k C2 device no longer causes a disconnection.
+
+
+Version 4.14
+	New Features/Enhancements
+	-------------------------
+	Added support for .wsx files.
+        Firmware for the USB Debug Adapter has been updated to Version 25.
+
+Version 4.10
+	New Features/Enhancements
+	-------------------------
+	Added support for CP2501 devices.
+
+
+Version 4.02
+	New Features/Enhancements
+	-------------------------
+	Added support for Si4010 devices.
+	Firmware for the USB Debug Adapter has been updated to Version 24.
+	Firmware for the Toolstick Adapter has been updated to Version 9.
+        Project files and files opened in the editor are saved to the workspace using relative file paths.
+
+	Corrections
+	-----------
+	The workspace file path has been removed from the workspace as it is no longer needed with relative file paths.
+	A problem that caused certain breakpoints not to occur when using a toolstick adapter has been fixed.
+
+
+Version 4.01
+	Corrections
+	-----------
+        Fixed connection issue with C8051F98x devices.
+
+
+Version 4.00
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F980/1/2/3/5/6/7/8/9 devices
+	Added support for C8051F990/1/6/7 devices
+        Added support for C8051F716/7 devices.
+        Updated USBHID.dll to v1.9
+	Added check for exact USBHID.dll version string when IDE is launched
+	("1.9.0.0").
+
+	Improved ToolStick terminal display speed and data integrity.
+
+	USB debug adapter list is updated on combobox drop down.
+
+	USB Read thread speed is improved (connecting, downloading, debugging,
+	etc)
+
+	Added presets to the toolchain integration dialog.  Users can save/restore
+	toolchain definition settings.
+
+	Improved User Space Erase speed for C2 devices.
+
+	Added assembler, compiler, and linker flags for default vendor settings
+	to automatically set the file paths for Silabs include files, vendor
+	include files, and vendor library files (as needed).
+
+	Automatically populate the "Find In Files" dialog "Find What" edit box
+	with the current editor text selection or word to match Find behavior.
+
+	Improved code download/verify progress bar accuracy.
+
+	Set default tool vendor to Raisonance using the default RIDE7 install
+	directory, C:\Program Files\Raisonance\Ride\bin\
+
+
+	Corrections
+	-----------
+        Fixed Find in Files functionality.
+
+	Fixed F362 flash erase bug.
+
+	Fixed a bug where the IDE crashes when attempting to connect to a ToolStick
+	device that is already opened.
+
+	Fixed a thread timing issue.
+
+	Fixed a bug where the mouse scroll wheel would only scroll the top pane of
+	a split editor window.
+
+
+Version 3.91
+	New Features/Enhancements
+	-------------------------
+        Added support for Si101x devices.
+
+Version 3.90
+	New Features/Enhancements
+	-------------------------
+        Added support for Si100x devices.
+
+Version 3.84
+	New Features/Enhancements
+	-------------------------
+        Added customized Raisonance support with compiler and linker options dialogs. 
+
+Version 3.81
+	New Features/Enhancements
+	-------------------------
+        Updated USBHID.dll to v1.8
+        
+
+Version 3.80
+	New Features/Enhancements
+	-------------------------
+        Added support for C8051F800/1/2/3/4/5/6/7/8/9 devices.
+        Added support for C8051F810/1/2/3/4/5/6/7/8/9 devices.
+        Added support for C8051F820/1/2/3/4/5/6/7/8/9 devices.
+        Added support for C8051F830/1/2/3/4/5 devices.
+        Added support for C8051F901/2 devices.
+        Added support for C8051F911/2 devices.
+
+        Added option to see complete file path. To display the path,
+        right click on the desired file and select Properties.
+        
+        Corrections
+	-----------
+        "Enable Smart Download" feature flag is now saved to the project.
+        
+
+Version 3.75
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F34C/D devices.
+        The USBHID.DLL has been updated to version 1.7
+
+Version 3.70
+
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F550/1/2/3/4/5/6/7 devices.
+	Added support for C8051F560/1/2/3/4/5/6/7/8/9 devices.
+	Added support for C8051F570/1/2/3/4/5 devices.
+	Added support for C8051F540/1/2/3/4/5/6/7 devices.
+
+	Corrections
+	-----------
+
+        Fixed Watch window to show correct struct member values when there is a generic pointer member before the structure.
+
+        Fixed IDE crash issue when backspacing or deleting highlighted text.
+
+
+Version 3.61
+
+	A "Step Into" function has been implemented. Version 3.50.01 had changed the step functionality from a
+	machine instruction step to a source code line step. This version reverts the single step operation to 
+	a machine instruction and adds the step into feature for the source line step operation.
+
+Version 3.60
+
+	New Features/Enhancements
+	-------------------------
+        Added support for C8051T606 device.
+
+        Added the double-clicking feature from the debug -> breakpoint dialog.
+
+	Corrections
+	-----------
+        Fixed a problem with hexfile download which occurred when the 32k program space address (physical address 0x8000 
+	for bank 2 or 0x10000 for bank 3) was not at the beginning of the hexfile data line which resulted in the incorrect 
+	bank being programmed.
+
+        Fixed creating a Group with same name as a file.
+
+        Fixed pointers to display properly in the IDE Watch Window.
+
+        Fixed file saving process. After a file save, the asterix indicating that a file has not been saved is no longer present.
+   
+Version 3.50.01
+
+	Several modifications were made to the project interface update made in V3.50. The IDE will
+	not verify that the device connected to matches the device in the project. Furthermore projects
+	will not be reopened when a connection is performed. 
+
+Version 3.50
+
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F508/9 devices.
+	Added support for C8051F510/1 devices.
+	Added support for C8051F580/1/2/3/4/5/6/7/8/9 devices.
+	Added support for C8051F590/1 devices.
+	Added support for C8051F700/1/2/3/4/5/6/7/8/9 devices.
+	Added support for C8051F710/1/2/3/4/5 devices.
+
+	Firmware for the EC2 Serial Adapter has been updated to Version 23.
+	Firmware for the USB Debug Adapter has been updated to Version 21.
+	Firmware for the Toolstick Adapter has been updated to Version 6.
+
+	Updated the project file to include device data** which will allow for peripheral windows to be 
+	created when a project is opened even when not connected. In addition when a project is opened,
+	or a connection is performed when a project is open the IDE will verify that the project device
+	data matches the connected device. These improvements will help to prevent project save failures
+	that had been occuring when projects were opened when not connected. 
+	**Special Note: It will be necessary to save existing projects while connected to hardware in
+	order for this feature to work. When projects are opened a message will be displayed notifying the
+	user about this requirement. In some cases it may be necessary to recreate projects if the save
+	is not successful.
+
+	A smartdownload feature has been implemented. This feature when enabled, will perform 
+	a verify on all pages prior to programming and if the verify is successful indicating 
+	that the page has not changed, the page will not be programmed. 
+
+        Added a "Add to Watch as Default Type" menu item to the top of the editor right mouse context menu.
+
+	Added functionality to track common file dialog directories independently of each other. The IDE now
+        tracks 3 common file dialog directories (project, toolchain, and user). The project and user 
+        directories are initialized to the current workspace directory. The Toolchain is initialized to the 
+        current linker folder.  The IDE stores the path, and uses the same path the next time the same dialog is opened.
+
+	Enlarged and reorganized the Project Build Definition dialog window. This will make easier for the 
+        user to locate needed files.
+
+	Support added for HiTech's OCG compiler.
+	- Added default error output option in the command line, "--errformat=Error   [%n] %f %l %s".  
+	  This will allow the user to double-click an error in the output window and view the
+	  line where the error occurred.  This functionality will not work if this option is
+	  changed.
+
+
+	Corrections
+	-----------
+	
+        - Fixed addressing when pointers are explicitly located in xdata space. Adding pointers to watch window
+          no longer causes IDE to crash.
+
+        - Fixed Struct data type to display correct data when added to watch window.
+	
+	- Fixed Signed Int Representation. The watch window now displays numbers correctly.
+
+	- A timing problem was fixed in the EC2 Serial Adapter firmware that caused intermittent 
+	  communication problems on specific boards.
+
+
+Version 3.42
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F34A/B devices.
+	Added .HEX to .SVF Conversion Utility (SilabsHex2Svf.exe).
+
+	Corrections
+	-----------
+	- Added a special button that allows configuration of the C2 clock speed.
+	This button appears in the option dialog next to the C2 selection when <Ctrl><Alt>"S"
+	is done.
+
+	- Fixed OSCICN read value.
+
+	- Fixed order of address checking to not allow writing to the lock byte of T60x devices.
+
+	- Fixed memory size configuration in T61x devices. T61x devices can now be programmed without
+	a CRC error message.
+
+
+Version 3.41
+	New Features/Enhancements
+	-------------------------
+	Firmware for the EC2 Serial Adapter has been updated to Version 22.
+
+	Firmware for the USB Debug Adapter has been updated to Version 20.
+
+	Firmware for the Toolstick Adapter has been updated to Version 5.
+
+	Common file dialogs (open/save) have been updated to use a resizable
+	version of the dialog.
+
+	Corrections
+	-----------
+	Fixed the location of SFR's for the C8051F34x MCU family.
+
+	Fixed all common file dialogs to handle longer filenames.
+
+
+Version 3.40
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F500/1/2/3/4/5/6/7 devices.
+
+	Firmware for the EC2 Serial Adapter has been updated to Version 21.
+
+	Firmware for the USB Debug Adapter has been updated to Version 19.
+
+	Firmware for the Toolstick Adapter has been updated to Version 4.
+
+	Added support for automatic Hex file generation. To access this option select
+	menu item "Project->Target Build Configuration".
+
+	Corrections
+	-----------
+	Fixed bug when selecting "Project->Target Build Configuration->Customize->Files to Link"
+	to add *.obj files instead of adding *.c files.
+
+	changed project name from  C8051F52x_53x to C8051F52xA_53xA
+
+	Enlarged the window in the "Connection Options/Adapter selection" to show all connected debug adapters.
+
+	Fixed Variable address to update properly on download in SDCC Watch Window.
+
+	Added support for the Hi-Tech C Pro compiler.
+
+
+Version 3.32
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F348/9 devices.
+
+Version 3.31
+	New Features/Enhancements
+	-------------------------
+	Firmware for the USB Debug Adapter has been updated to version 17.
+
+	Corrections
+	-----------
+	The View\Debug Windows menu was corrected to contain the External Memory item 
+	for all devices that have external memory.
+
+	Fixed SFR16 addresses for TMR3 and DP in header file C8051F350_defs.h
+
+Version 3.30
+	New Features/Enhancements
+	-------------------------
+	Added support for C8051F520A/1A/3A/4A/6A/7A devices.
+
+	Added support for C8051F530A/1A/3A/4A/6A/7A devices.
+
+	Added source file navigation history (Back/Forward).
+
+	Added source browsing for the Keil toolchain (Go to Definition/Reference).
+
+	Production Programmer updated to version 1.2.
+
+
+	Corrections
+	-----------
+	Fixed bug that caused the IDE to crash when code memory fill is performed on the C8051F120 device.
+
+	Removed -E flag from the HI-TECH assembler cmd line.
+
+	Added support for HI-TECH .as (Assembly) files.
+
+	
+
+Version 3.20
+	New Features/Enhancements
+	-------------------------
+	Added keyboard shortcut for "Find In Files" dialog (Ctrl+Shift+F).
+
+	Added support for spaces in the project directory path for the following toolchains:
+	Hi-Tech, IAR, Keil, Raisonance, SDCC, and Tasking.
+	
+	Support added for C8051T630/1/2/3/4/5 devices.
+
+	Support added for C8051F930/1 devices.
+	Support added for C8051F920/1 devices.
+
+	Added Status Bar item to indicate the serial number or COM port
+	of the adapter currently selected.
+
+
+	Corrections
+	-----------
+	Changed dialog tab order and control grouping to be more sequential.
+
+	Fixed a bug when parsing Hi-Tech error output window that caused a crash.
+
+	Removed the "none" command line option so that files could be assembled
+	using the Hi-Tech assembler.
+
+	Changed the default memory model command line option for the Hi-Tech compiler
+	and linker to use the small memory model instead of the medium memory model.
+
+	Changed the default Raisonance toolchain path to c:\RIDE\BIN\.
+
+	The "Load Recent Project on Startup" selection is ignored when loading a
+	Silicon Laboratories IDE project file from an explorer window.
+
+	Fixed Watch Window bug pertaining to changing bits from bit-addressable space
+	from the window.
+
+
+Version 3.10
+	Support added for C8051T610/1/2/3/4/5/6/7 devices.
+
+	Added a New File dialog to allow a user to create a template workspace based on the
+	device family selected.
+
+	Production Programming utility added to release. The utility files are installed in 
+	the ...\SiLabs\MCU\Utilities directory.
+	
+	Added support to view unions in the Watch Window.
+
+	Evaluation Keil toolset removed from IDE installation package.
+
+
+Version 3.00
+	New Features/Enhancements
+	-------------------------
+	Support added for C8051F336/7/8/9 devices.
+
+	Debug Adapter communication has been enhanced to improve IDE flash content
+	update speed.
+	
+	The USBHID.DLL interface has been modified. The IDE.exe now expects the USBHID.DLL
+	to be in the same directory as the IDE.
+
+	Support added for opening Silicon Labs IDE project files from an explorer window.
+
+	Support added to the installer for associating Silicon Labs IDE project files (*.wsp)
+	with the IDE. 
+
+	Evaluation Keil toolset added to the IDE release. This version is code size limited 
+	to 2kB, does not include floating point libraries and downloads code to memory 
+	location 0x0800. A Silicon Labs Serial Number is included with the purchase of a kit
+	that will upgrade the toolset. Once licensed the tools will be code size limited to 
+	4 kB and download code to memory location 0x0000. See Application Note AN104 for 
+	instructions on licensing the Keil tools to receive the upgrade.
+
+	The path to "blinky" code examples has been changed to support the addition of more
+	device examples. 
+
+	Device examples have been added to demonstrate the use of many device peripherals. 
+	See the SiLabs\MCU\Examples\<Device Family> directories for new examples.
+
+	Links in the IDE to Keil support documents updated to point to latest help files.
+
+
+	Corrections
+	-----------
+	Watch Window updated to view bit-fields combined with other variables in structs.
+
+	A problem with the ascii display for Japanese O/S characters has been fixed.
+
+	USB Reset utility updated to v1.3 to fix a problem where it could not recognize any
+	attached USB debug adapters. 
+
+
+Version 2.91.01
+	Dunfield toolset support has been removed.
+	Support for Microsoft Vista implemented.
+	The default path for the Tasking tools has been updated to:
+		C:\Program Files\TASKING\dcc51 v7.1\bin\
+	The default extension for the "Absolute OMF file name" in the 
+		Target Build Configuration window is changed to ".omf"
+		when using the Tasking tools.
+	The default path for the SDCC tools has been updated to:
+		C:\Program Files\SDCC\
+
+Version 2.91
+	New Features/Enhancements
+	-------------------------
+	Support added for C8051T600/1/2/3/4/5 devices.
+
+Changes since ver 2.82
+	New Features/Enhancements
+	-------------------------
+	Support added for C8051F360/1/2/3/4/5/6/7/8/9 devices.
+
+	Corrections
+	-----------
+	Fixed watch window bug that caused signed integers > 128 to be displayed incorrectly.
+
+	Default IAR OMF filename changed to .a51.
+	Fixed IAR command line bug that caused a space to be added between the filepath and filename.
+	Updated default IAR tool path to "C:\Program Files\IAR Systems\Embedded Workbench 4.05".
+	Added -s __program_start and cl-pli-nsid-1e16x01.r51 to the IAR linker command line flags.
+
+Changes since ver 2.81
+	New Features/Enhancements
+	-------------------------
+	Support added for C8051F520/1/3/4/6/7 devices.
+	Support added for C8051F530/1/3/4/6/7 devices.
+
+
+Changes since ver 2.80
+	Corrections
+	-----------
+	IAR support changed to include a space after the -o option. 
+
+Changes since ver 2.72
+	New Features/Enhancements
+	-------------------------
+	A ToolStick device can be used as a USB Debug Adapter.	
+	Firmware for the EC2 Serial Adapter has been updated to Version 20.
+	Firmware for the USB Debug Adapter has been updated to version 12.
+
+	Corrections
+	-----------
+	SFR values are now refreshed when a Connect is performed.
+	Read-Only files are no longer overwritten when the the Build/Make Project 
+	key (F7) is pressed.
+	The HiTech compiler options have been updated to use the --Chip option.
+	The HiTech default extension for compiled files was changed from .omf to .obj.
+
+
+Changes since ver 2.71
+
+	New Features/Enhancements
+	-------------------------
+	F350_ADC_Buffered_2.c example added. This program demonstrates taking measurements using 
+	the 24-bit ADC on the C8051F350/51 devices.
+
+	Corrections
+	-----------
+	Corrected issue viewing default type variables from the symbol view from an assembled file.
+	Corrected ability to change the value of a bit in the watch window.
+	Corrected problem with indexing beyond 9 of an array in the watch window.
+
+
+Changes since ver 2.7
+
+	Corrections
+	-----------
+	Issue when viewing XRAM with C8051F34x devices fixed.
+	
+
+Changes since ver 2.61
+
+	New Features/Enhancements
+	-------------------------
+	Support added for C8051F410/1/2/3 devices.
+
+
+Changes since ver 2.6
+
+	Corrections
+	-----------
+	Issue when attempting to save a new file fixed.
+
+
+Changes since ver 2.51
+
+	New Features/Enhancements
+	-------------------------
+	Support added for C8051F326/7 devices.
+	Support added for C8051F340/1/2/3/4/5/6/7 devices. 
+
+	Firmware for the EC2 Serial Adapter has been updated to Version 19.
+	Firmware for the USB Debug Adapter has been updated to version 9.
+
+	C8051F02x, C8051F12x, and C8051F34x devices now include windows to
+	display registers and memory for CP2200 devices.
+
+	Ethernet example directories moved from \silabs\mcu\ethernet to 
+	\silabs\mcu\examples\MCU family directories. 
+	Ethernet examples added for C8051F02x and C8051F34x devices. 
+
+Changes since ver 2.5
+
+	Corrections
+	-----------
+	A problem which prevented V2.5 from connecting to C8051F064 evaluation boards
+	has been corrected.
+
+
+Changes since ver 2.4
+
+	Corrections
+	-----------
+	The extended memory interface for C8051F13x devices was fixed to allow 
+	external memory to be displayed up to 64k.
+
+	New Features/Enhancements
+	-------------------------
+	Support added for Si825x devices. 
+	Support added for C8051F316/7 devices.
+
+	Firmware for the EC2 Serial Adapter has been updated to Version 18.
+	Firmware for the USB Debug Adapter has been updated to version 7.
+	The new firmware versions include speed improvements for JTAG devices.
+
+	The USBHID.DLL has been updated to version 1.1.0.0. Version 2.5 of the 
+	IDE requires this version of the USBHID.DLL and will not work with older
+	versions.
+
+
+Changes since ver 2.31
+
+	Corrections
+	-----------
+	The default command line flags for the SDCC assembler(asx8051.exe) have been changed
+	from '-plosgjff' to 'plosgff'.
+
+	New Features/Enhancements
+	-------------------------
+	Firmware for the EC2 Serial Adapter has been updated to Version 16.
+
+	Support added for IAR 8051 assembler/compiler/linker toolset. See AN236.
+
+	[CD Release only] Included KEIL Evaluation BL51 Linker has been updated 
+	to Version 5.15.
+
+	Option added in the "Connection Options" dialog for the USB Debug Adapter
+	to continue to provide power to a target device after disconnecting. 
+
+	[CD Release only] The TCP/IP Configuration Wizard has been added to the CD 
+	installation. This utility generates initialization code to configure on-chip 
+	resources for TCP/IP applications. Support is currently includes for the 
+	'F12x and 'F13x MCU Families. The wizard is designed to be used with the 
+	Embedded Modem Development Kit. 
+
+	[CD Release only] TCP/IP Examples have been included in the 
+	C:\Silabs\MCU\Examples\Modem directory. These examples are designed to be used 
+	with the TCP/IP Configuration Wizard and the Embedded Modem Development Kit.
+
+	
+
+Changes since ver 2.3
+
+	Corrections
+	-----------
+	Tools Release 2.31 includes a new installer. The IDE version remains at 2.3. 
+	Due to a new version of installation software, prior web releases 
+	of Silicon Laboratories Tools will not be recognized as existing
+	versions. Removal of the prior version must be done manually.
+
+Changes since ver 2.2
+
+	Corrections
+	-----------
+	An issue with the 'Find in Files' feature has been corrected. Searches
+	using capital letters will now be found.
+
+	The default output file extension for the HiTech compiler has been
+	changed from '.obj' to '.omf'.
+
+	New Features/Enhancements
+	-------------------------
+	Support updated for the C8051F33x device family.
+
+
+Changes since ver 2.1
+
+	Corrections
+	-----------
+	An issue causing the installation of the IDE to fail on a Windows NT
+	PC has been fixed.
+
+	Watchpoint support for C8051F04x devices has been removed.
+
+	An issue causing the Debug Window Font to be saved incorrectly in the
+	project file has been fixed.
+
+	An issue where the IDE saved ALL files when the Build/Make button was
+	pressed has been fixed.
+
+	An issue causing Symbol names to not be found by the IDE when the file 
+	name included a "-" character has been fixed.
+
+
+	New Features/Enhancements
+	-------------------------
+	Support has been added for the F044/5/6/7 devices.
+	Support has been added for the F312/3/4/5 devices.
+
+	A "Run to main() on code download." option has been added to the Target 
+	Build Configuration window. If this option is checked then the IDE will
+	automatically run to the main() function of a project after the project
+	is downloaded.
+
+	USB Human Interface Driver (HID) example included in the 
+	C:\silabs\mcu\examples\c8051F32x\c\HID_Example directory.
+
+
+Changes since ver 2.0
+
+	Corrections
+	-----------
+	An error when attempting to write a value larger than 0x80000000 to an 
+	unsigned long variable in the watch window has been fixed.
+
+	An error causing the Debug window font selection to not be saved with 
+	the project has been fixed.
+
+	Consistent Copy/Paste functionality has been implemented in the Ouput 
+	Window.
+
+	New Features/Enhancements
+	-------------------------
+	Support has been added for the F130/2/3/4 devices.
+
+	A “Find in Files” function has been added.
+
+	Support has been added for viewing Memory windows in ASCII format.
+
+	Support has been added for viewing Pointers and Structures in the 
+	Watch Window.
+
+	On startup, the IDE will now auto-load the last open project.
+
+	The IDE now executes a "Save All" instruction without prompting 
+	the user.
+
+	A function has been added to test if a COM port is valid.
+	
+	A feature has been added to show a visual indication that a file has 
+	unsaved changes.
+
+	Support has been added to select Disassembly window text.
+ 
+
+
+Changes since ver 1.9
+
+	Corrections
+	-----------
+	Consistent mouse wheel functionality has been implemented in all code and 
+	memory windows.
+
+	New Features/Enhancements
+	-------------------------
+	Support has been added for the F064/5/6/7 devices.
+
+	Support has been added for the SDCC compiler. 
+	
+	Support has been added for the USB Debug adapter. A new "Connection Options" 
+	dialog in the Options menu interfaces to all the debug adapter configuration 
+	settings.
+
+Changes since ver 1.85
+
+	Corrections
+	-----------
+	An error in the watch window which caused incorrect values to be 
+	shown for values stored in the first or second location of a ram bank 
+	has been fixed.
+
+	An IDE crash which occured when editing watch window values has been
+	fixed.
+
+	An error in the 'Suspend Can on Halt' implementation which resulted
+	in the Can bus not being consistently stopped when a halt occured has 
+	been fixed.
+
+	New Features/Enhancements
+	-------------------------
+	The executable name was changed from cde.exe to ide.exe.
+
+	Support has been added for the F35X device families.
+
+	The 'Serial Ports' options menu has been expanded to scan for existing
+	com ports up to 10. It is also possible to enter a com port number.
+
+Changes since ver 1.84
+	
+	Corrections
+	-----------
+	Files no longer opened when compiled with the Tasking compiler.
+	
+	Problems with resizing debug windows has been fixed.
+
+	The IDE now handles invalid stack record entries correctly when
+	the stack window is displayed.
+
+	New Features/Enhancements
+	-------------------------
+	Configuration wizard menu item has been removed from the Tools
+	menu.
+
+Changes since ver 1.83
+	A CD version installation error has been corrected.
+
+Changes since ver 1.81
+
+	New features/Enhancements
+	-------------------------
+	The Keil toolchain members (assembler, linker, evaluation compiler) 
+	have been updated with new versions. In addition, an evaluation uV2 
+	debugger is now installed.
+
+	The 'Build/Make Project' button on the Build toolbar now implements
+	a smart build which re-builds only those project files which have
+	been changed since the previous build. If the Keil toolchain is
+	used, then a check for changes in all dependency files is performed.
+	If a full re-build is required the 'Rebuild Project' button should
+	be used. NOTE: Toolbar buttons are saved as part of a projects'
+	configuration. Therefore, projects created with previous versions
+	of the IDE will not contain the 'Rebuild Project' button, although  
+	the 'Rebuild Project' functionality can be accessed from the 'Project'
+	menu. To add the 'Rebuild Project' button to the Build toolbar use 
+	the 'Options' menu 'Toolbar Configuration' dialog. Highlight the
+	'Build' toolbar and press the 'Reset' button, then save the project 
+	to retain the new toolbar configuration.
+
+	Code banking using the Tasking compiler is now supported.
+	
+	The processing time for copying large list files into the List tab
+	of the output window has been sped up, resulting in an improved
+	compile/assemble time.
+
+	This version of the IDE includes an EC2 firmware update to version 
+	0x10.  This firmware update adds support for pin sharing during 
+	debug of C2 devices (as discussed in “Application Note AN024: 
+	Pin Sharing Techniques for the C2 Interface”).
+
+	Corrections
+	-----------
+	
+	The "remember setting" option in the "Do you want to connect?"
+	pop-up box now functions correctly.
+
+	An error which caused a program exception when a user space 
+	erase was performed during a flash download to protected code 
+	space has been fixed.	
+	
+	A problem which resulted in a "cannot open non-text file" error
+	message when attempting to open the file by double-clicking on 
+	the filename in the project window has been fixed. The files
+	that caused this error contained non-standard text characters.
+
+Changes since ver 1.80
+
+	Corrections
+	-----------
+
+	CAN0 register window for F06x device family is restored.
+
+
+Changes since ver 1.72
+
+	New features/Enhancements
+	-------------------------
+	Support has been added for the F06X, F32X, & F33X device families.
+
+	The user is now informed when a file open in the IDE has changed in the 
+	background (e.g. an .M51 file after a build, or a file edited outside of
+	the IDE by another editor) and will be prompted to load the updated file.
+
+	Support has been added for the Keil LX51 Linker and corresponding OMF2 
+	output format.
+	
+	The IDE no longer automatically opens files when they are added to a project. 
+
+	The IDE no longer opens all files in a project when a build occurs.
+
+	Support for the HiTech tool chain has been added.
+
+	The IDE no longer allows the user to overwrite files marked read-only.
+
+	COM port selection is now saved on a per session basis. The setting in the 
+	project will override the setting saved in the registry upon opening your first 
+	project.  The last serial port setting will be saved when the IDE is closed.
+
+	A new menu item has been added to the Options menu that allows the user to 
+	indicate if they wish to connect automatically when opening a project.
+
+
+	Corrections
+        -----------
+
+	An issue associated with not being able to set breakpoints when the "Hide file
+	extentions for known file types" option has been selected in the Folder Options 
+	settings in Windows Explorer has been corrected.
+
+	An issue that caused the IDE to become unresponsive when pressing the Delete 
+	key in an empty watch window has been corrected.
+
+	An issue that caused the IDE to become unresponsive when attempting to add a 
+	symbol to the watch window from an OMF file downloaded to the target without 
+	previously loading a project has been corrected.
+
+	An issue that did not allow the user to add a variable created with all capital
+	letters to the watch window has been corrected.
+
+	An issue where the file selection dialog box won't add any files to the project 
+	if a large number of files is selected has been corrected.
+
+
+Changes since ver 1.71
+
+	The following watch window issues were corrected:
+	Global variables are correctly added and maintained across multiple files.
+	Watch window contents do not shift after a download operation.
+	Contents of 16-bit SFR's are displayed in the correct MSB/LSB byte order.
+
+	An error with the XRAM view on 02x devices which was introduced in 
+	version 1.7 has been corrected.
+
+Changes since Ver 1.7
+
+	The "Project Save" command has been improved to increase project save speed.
+
+	The SFR peripheral views have been re-architected to improve overall
+	IDE performance. The SFR views are now created upon connection to a 
+	target board. Therefore, if SFR windows are saved as part of a project 
+	configuration, it is necessary to be connected to the target when the 
+	project is re-opened in order for the windows to be restored. In addition,
+	SFR views in projects saved with a previous version will not be restored,
+	until re-opened and saved with Version 1.71.
+
+Changes since Ver 1.62
+
+	New features/Enhancements
+	-------------------------
+	Support has been added for the F04X, F12X, & F31X device families.
+
+	Watch window contents are saved as part of the project information. 
+	However, because the symbol information is embedded in the OMF records 
+	which are downloaded to the device, the window contents are not restored 
+	until following a download operation.
+
+	The disassembly window update time when jump and branch instructions 
+	are executed has been sped up.
+
+	The stack record view has been enhanced and now includes alert dialogs
+	when overflow or underflow conditions occur.
+
+	An 'SFRPAGE' field has been added to the status bar which displays
+	the current value of the SFRPage SFR on devices which support SFR paging.
+
+	The IDE now supports command line arguments. When launching the IDE, 
+	the following options can be used:
+          /P=<Project file location and name>
+             Specify the project to be loaded when the IDE is launched. If this
+             flag is used, all other arguments are ignored.
+          /D Switch to force a connection to the hardware and automatic download
+             of the object file when the IDE is launched.
+          /O=<Object file location and name>
+             Specify the object file to be automatically downloaded when the 
+             IDE is launched.
+          /C=<COMM Port Number 1-4>
+             Specify the comm port.
+          /I=<J or C>
+             Specify the JTAG or C2 debug interface.
+	The use of these command line arguments allows the IDE to be launched,
+	and immediately be prepared for a debug session.
+
+	The installation has been updated to allow installation component 
+	selection and also provides enhanced uninstall/modification capabilities. 
+	The Configuration Wizard and its associated files are now installed in a 
+	separate 'Config' folder within the target installation directory. 
+
+	Corrections
+        -----------
+
+	The default value for the Keil linker ramsize directive has been 
+	changed to RS(256). The previous default of 255 caused the linker 
+	to somtimes handle memory overlaps incorrectly.
+
+	Problems with the watch window incorrectly displaying SFR values
+	and variables declared in IDATA space have been fixed.
+
+	The problems associated with 'floating' debug windows in the IDE
+	during build and debug operations have been fixed.
+
+	An inconsistency which caused breakpoints to sometimes not be 
+	removed when requested has been fixed.
+
+	The problem of performing a 'Save Project' on a newly created 
+	project with the name "New Project" incorrectly saving the 
+	project to the previously opened project name has been fixed.
+
+	The enable automatic save before build option not working on 
+	projects defining a batch file to perform the build has been
+	fixed.
+
+	A problem with "Upload Memory to File" which caused an extra block
+	of invalid data to be written when more than 255 bytes of data 
+	were uploaded has been fixed.
+
+Changes since Ver 1.61
+
+	User Space Erase erase functionality on F02X and F2XX devices no 
+	longer requires an IDE connection. (Necessary in the event that the 
+	IDE cannot connect because the code space has been read locked.)
+
+	Scratchpad memory edits on F02X devices no longer report an incorrect
+	CRC error.	
+	
+	When using a Tasking toolset, the default file extension for "Files to
+	Link" has been changed from ".OUT" to ".OBJ". 
+
+	Incorrect tool paths in example blink project files have been fixed.
+
+
+Changes since Ver 1.6
+	
+	The vendor selection on the 'Tool Chain Integration' dialog now includes 
+	American Raisonance and Tasking (Altium). Refer to application notes AN025 
+	and AN026 for details on integrating these tools into the Silicon Laboratories IDE.
+
+	The disassembly view has been enhanced to better handle jumps and calls, 
+	and also correctly display history (lines disassembled before the current 
+	PC location in the view).  However, a side effect to this enhancement is 
+	that in some cases (such as when a long jump is being made) the PC update 
+	in a source window will take longer than it did with previous versions.  To 
+	prevent the delay in PC location update, you may close the disassembly view.
+	(Also, it is now possible to disable the automatic opening of the disassembly 
+	view when the current PC location does not correspond to a source line in a
+	project file.  Use the 'Options' menu 'Disassembly View' and 'Enable/Disable 
+	Auto-Open' to disable the automatic opening of the disassembly view.)
+
+	Following a 'C' project download the program counter no longer is 
+	displayed at the 'main' function location. (This was actually not correct
+	because the main function was not at location 0x00.) If there is source
+	line correlation for address 0 in the project code, the PC indicator will
+	be shown there, otherwise there will be no PC indicator displayed, but if
+	the 'Disassembly View Auto-Open' is enabled in the Options menu the 
+	disassembly window will open and show the PC location at address 0.
+
+	IDATA Segment Variables in Watch Window now update correctly.
+
+	Variables in Watch Window can now be edited.
+
+	All debug windows can now be accurately re-sized, and are correctly 
+	refreshed.
+
+	Linker flag strings of greater than 255 characters are now correctly 
+	saved with the project information.	
+	
+
+Changes since Ver 1.51
+
+	Added support for the F300/01/02/03 devices. 
+
+	Disassembly window revised to display correct bit-field interpretation for 
+	bit manipulation operations. Intermittent dissassembly window error which
+	could cause the IDE to crash has been fixed.
+
+	Step-over function improved for C-source debug.  NOTE: Step-over operation
+	is not real time in some cases.  If real-time operation is necessary, 
+	it is best to use the "run-to-cursor" function.
+
+	Custom symbol watch window now available in the 'View' -> 'Debug Windows'
+	menu.  Symbols may be added to the watch window by clicking the right mouse
+	button on the symbol's name in either the source window or the symbol view.
+
+
+Changes since Ver 1.5
+
+	Modification of dissassembly window for improved operation on Windows 98
+	machines.
+
+
+Changes since Ver 1.41
+
+	Added support for the F020/21/22/23 devices. 
+
+	A problem introduced in Ver 1.41 which caused C source level debugging 
+	synchronization issues has been corrected.  The problems were seen 
+	predominantly in externally generated OMF files, and OMF files which 
+	contained multiple lines of C code associated with a single address.
+	
+
+Changes since Ver 1.40
+	
+	The NAME directive used with the Keil A51 assembler is now supported
+	during multi-file source-level debug.
+
+	The IDE will automatically create a single-file project using the currently
+	open source file if you select "Build or Make Project" before a project is
+	defined.  (This allows building a program from a single source file without
+	having to manually configure a project.  However, once a project has been 
+	automatically created by the IDE, any additional files must be added to the
+	program build using the "Target Build Configuration" dialog.)
+
+	The IDE assigns the output file name to be the same as the project name by
+	default.  (If no project name exists, i.e., project has not been saved, the
+	file name of the first source file in the build is used.)
+
+	The Keil A51 Assembler and Linker manual is now available from the IDE
+	help menu.
+
+
+Changes since Ver 1.30
+
+	The integrated Metalink assembler/linker has been replaced with the Keil
+	Software A51 assembler and BL51 linker.  The Keil assembler and linker are
+	configured using the "Tool Chain Integration" selection under "Projects" in
+	the Silicon Laboratories IDE.  Once configured, clicking on the "Assemble"  
+	and "Build" buttons on the toolbar will automatically launch the Keil 
+	assembler and linker. (Refer to the on-line help for more information.)
+
+	Operation under the Windows 2000 OS is now supported.
+
+	Downloading code to target Flash is now faster.
+
+   	The previous Tool Chain Integration dialog has been separated into two
+	dialogs -- Tool Chain Integration and Target Build Configuration.  The "Tool 
+	Chain Integration" configuration now persists across all projects.  A separate
+	target build (list of files used in the build) is defined for each project.
+
+	Context menus (click right mouse-button on file name) are available in the
+	"Project Window" to add files to projects, and to add or remove files from 
+	a target build.
+
+	Project files can now be relocated to a different directory.  (All source
+	files must reside in the same directory as the project .wsp file.)
+	The "Symbol" view has been enhanced.  (Symbols are now arranged alphabetically
+	within groups based on symbol type.
+
+	The "File Open" and "Add Files to Project" browsers now allow multi-file 
+	selections.
+
+	Following a project build, focus is restored to the source file active prior 
+	to the build.
+
+	A new toolbar containing buttons for the RAM, CODE, DISASSEMBLY and 8052 SFR
+	debug views is now available.
+
+	A new feature has been added to the provide the ability to copy a block RAM 
+	or FLASH content from the target to a file on the host PC.  The new feature
+	is accessed by selecting the "Tools -> Output Memory to File" menu item.
+	
+	A stack record debug view is now available (under "View" -> "Debug Windows"
+	-> "Stack").
+
+ 	Programming the top sector of FLASH no longer causes an the entire FLASH to
+	be erased unless FLASH security bits are set (located in the top sector).
+	However, an erase of the entire FLASH is required before reprogramming any
+	locked sector or reprogramming the top sector if any sector is locked.
+
+
+Changes since Ver 1.21
+
+        The on-line help system has been updated and enhanced.
+
+        In-system Flash programming is now faster.
+
+        The IDE now supports both the EC-1 and EC-2 Serial Adapters.
+	
+        The options menu contains a 'Debug Window Font Selection' dialog which permits
+        customization of the font used for all of the debug windows (Code, Ram, Disas-
+        sembly and SFR's).
+
+        Conditional data watchpoints enabled. The watchpoint dialog is accessed from 
+        the debug menu, and allows watchpoints to be set on RAM and SFR values. In 
+        addition, there is a watchpoint button on the debug toolbar to access the 
+        watchpoint dialog.  However, existing projects will have to be re-created and 
+        saved with the new debug toolbar to access the toolbar button. (This is 
+        because part of the project configuration which is saved with the project is 
+        the toolbar configuration.) 	
+
+        More Tool Chain Integration improvements:
+        -  The build process now generates a linker file when invoking the linker,
+           which will allow for an unlimited length command line. (The previous 
+           version was limited by the 256 byte DOS command line limit.)
+
+        -  External tool selection executables (assembler, linker, compiler), once 
+           defined will persist in new projects.
+
+        A download to Flash now preserves the contents of Flash pages that are not 
+        targeted in the current download operation.  In previous versions, Flash 
+        pages that were not addressed in the current download could be erased under 
+        certain circumstances.
+
+        The following Hotkeys have been added:
+        -  Single-step             [F11]
+        -  Build                   [F7]
+        -  Open Watchpoint Dialog  [Alt-W]
+        -  Open Breakpoint Dialog  [Alt-B]
+
+
+Changes since Ver 1.20
+
+	Added support for the F2XX devices.
+
+
+Changes since Ver 1.10
+
+	Added support for the F005/6/7 & F015/16/17 devices.
+
+	Improved toolchain integration:
+
+		The 'C Tool Integration' dialog in the project menu, has been changed
+		to 'Tool Chain Integration' and now includes executable and format
+		definitions for an assembler, compiler, and linker. It is no longer 
+		necessary to have a project open to access the dialog.
+
+		The 'Define Build Process' Customize dialog now includes selection 
+		of assembly files and also a button to add an external obj file 
+		to the link command.
+
+	Improved breakpoint support in multiple file C projects.
+
+	When an OMF-51 absolute object file is downloaded which contains symbol 
+	information, the project window symbol tab will display the symbol data.
+
+

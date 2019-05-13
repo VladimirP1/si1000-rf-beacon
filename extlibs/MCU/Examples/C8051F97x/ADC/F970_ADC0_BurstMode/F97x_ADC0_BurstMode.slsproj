@@ -1,0 +1,8 @@
+<project name="F97x_ADC0_BurstMode" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="ADC"/>
+  <folder name="src" uri="src">
+    <file name="F970_ADC0_BurstMode.c"/>
+  </folder>
+  <property key="initiallyOpenedResource" value="src/F970_ADC0_BurstMode.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

@@ -1,0 +1,11 @@
+<project name="F97x_Imeasure_Normal_External_CMOS_Oscillator" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="Imeasure"/>
+  <folder name="src" uri="src">
+    <file name="F97x_Imeasure_Normal_External_CMOS_Oscillator.c"/>
+    <file name="Imeasure.A51"/>
+    <file name="Imeasure.h"/>
+  </folder>
+  <includePath languageCompatibility="c asm" uri="unresolved:$%7BProjDirPath%7D/src/"/>
+  <property key="initiallyOpenedResource" value="src/F97x_Imeasure_Normal_External_CMOS_Oscillator.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_timer2_16bitreloadtimer" label="Timer2 16bitReloadTimer" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="16-bit Timer2 Example"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>16-bit Timer2 Example&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example program uses Timer2 in 16-bit counter mode to blink
+LED05 at 5Hz.&lt;/pre></description>
+    <openedResource>F97x_Timer2_16bitReloadTimer.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

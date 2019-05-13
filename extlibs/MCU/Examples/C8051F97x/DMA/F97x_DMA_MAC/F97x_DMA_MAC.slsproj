@@ -1,0 +1,8 @@
+<project name="F970_DMA_I2C_Slave" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="DMA"/>
+  <folder name="src" uri="src">
+    <file name="F970_DMA_MAC.c"/>
+  </folder>
+  <property key="initiallyOpenedResource" value="src/F970_DMA_I2C_Slave.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

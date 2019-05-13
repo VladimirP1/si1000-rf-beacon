@@ -1,0 +1,92 @@
+----------------------------------------------------------
+Silicon Labs .HEX to .SVF Conversion Utility Release Notes
+Version 1.31
+Copyright 2012, Silicon Laboratories
+----------------------------------------------------------
+
+
+Known Issues
+------------
+	None
+
+
+Release Dates
+-------------
+	Version 1.31 - July 17, 2012
+	Version 1.3  - July 13, 2012
+	Version 1.22 - September 28, 2009
+	Version 1.21 - September 30, 2008
+
+
+Revision History
+----------------
+
+Version 1.31
+	New Features/Enhancements
+	-------------------------
+	None
+
+	Corrections
+	-----------
+	- Added address setup when necessary and skipping 0xFF verification.
+	- Added new check boxes to save/restore configuration file.
+
+Version 1.3
+	New Features/Enhancements
+	-------------------------
+	- Separated Read Verify opertaion from Write operations and split into 
+	  Main/Scratchpad options.
+	- Added "Skip 0xFF During Verify" option.
+	- Separated Write Lock and Read Lock operations from device write.
+
+	Corrections
+	-----------
+	- Fixed background color in main window controls.
+
+
+Version 1.22
+	New Features/Enhancements
+	-------------------------
+	None
+	
+	Corrections
+	-----------
+	Removed "0x" designators in files "Init2.cfg", "Init3.cfg", and "Init4.cfg"
+	These cause problems with some JTAG programmers.
+
+
+Version 1.21
+	New Features/Enhancements
+	-------------------------
+	- Added Filters for file types (*.HEX and *.SVF)
+	
+	Corrections
+	-----------
+	None
+
+Version 1.2 (pre-release)
+	New Features/Enhancements
+	-------------------------
+	- Utility now saves configuration file on exit, which makes all
+		parameters persistent upon close and re-open of the program.
+	- Moved header/trailer info to a new form, and added button to access 
+		form.
+	- Expanded the user's ability to customize the header/trailer 
+		information by allowing them to input TDI, TDO, MASK, and 
+		SMASK values for the HDR, HIR, TDR, and TIR fields.
+
+	Corrections
+	-----------
+	None
+	
+Version 1.1 (pre-release)
+	New Features/Enhancements
+	-------------------------
+	- Added input boxes for header bits and trailer bits.
+
+	Corrections
+	-----------
+	None
+	
+Version 1.0 (pre-release)
+	- Initial Pre-Release

@@ -1,0 +1,7 @@
+mkdir -p obj
+cd obj
+sdcc -mmcs51 -c -o main.rel -DAPP_VERSION_HIGH=2 -DAPP_VERSION_LOW=0 --model-large --opt-code-speed --Werror --std-sdcc99 --fomit-frame-pointer -I../extlibs/MCU/INC ../main.c
+sdcc -mmcs51 -c -o radio.rel -DAPP_VERSION_HIGH=2 -DAPP_VERSION_LOW=0 --model-large --opt-code-speed --Werror --std-sdcc99 --fomit-frame-pointer -I../extlibs/MCU/INC ../radio.c
+sdcc -mmcs51 -c -o sdcard.rel -DAPP_VERSION_HIGH=2 -DAPP_VERSION_LOW=0 --model-large --opt-code-speed --Werror --std-sdcc99 --fomit-frame-pointer -I../extlibs/MCU/INC ../sdcard.c
+sdcc -mmcs51 -c -o loader.rel -DAPP_VERSION_HIGH=2 -DAPP_VERSION_LOW=0 --model-large --opt-code-speed --Werror --std-sdcc99 --fomit-frame-pointer -I../extlibs/MCU/INC ../loader.c
+sdcc --model-large --iram-size 256 --xram-size 4096 --code-loc 0x400 --code-size 0x00f400 --stack-size 64 -o out.ihx main.rel radio.rel sdcard.rel loader.rel

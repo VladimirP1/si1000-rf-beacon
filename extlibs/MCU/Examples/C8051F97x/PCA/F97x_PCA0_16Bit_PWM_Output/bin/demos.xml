@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_pca0_16bit_pwm_output" label="PCA0 16Bit PWM Output" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="16-bit PWM Example"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>16-bit PWM Example&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example project uses the PCA's PWM Output Mode to generate a
+16-bit PWM Square Wave that is modulated in real time.&lt;/pre></description>
+    <openedResource>F97x_PCA0_16Bit_PWM_Output.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

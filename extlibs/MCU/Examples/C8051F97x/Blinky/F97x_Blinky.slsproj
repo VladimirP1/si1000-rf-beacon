@@ -1,0 +1,8 @@
+<project name="F97x_Blinky" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value=""/>
+  <folder name="src" uri="src">
+    <file name="F970_Blinky.c"/>
+  </folder>
+  <property key="initiallyOpenedResource" value="src/F970_Blinky.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

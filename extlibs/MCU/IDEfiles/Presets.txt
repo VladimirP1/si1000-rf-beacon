@@ -1,0 +1,13 @@
+0x0100
+1
+SDCC
+5
+C:\Program Files (x86)\SDCC\bin\sdas8051.exe
+-plosgff
+C:\Program Files (x86)\SDCC\bin\sdcc.exe
+-c --debug --use-stdout -V -I"c:\SiLabs\MCU\Inc"
+C:\Program Files (x86)\SDCC\bin\sdcc.exe
+--debug --use-stdout -V
+1
+.rel
+0x7FFF

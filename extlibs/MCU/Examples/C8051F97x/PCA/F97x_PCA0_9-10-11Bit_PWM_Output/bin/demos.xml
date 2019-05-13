@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_pca0_9-10-11bit_pwm_output" label="PCA0 9-10-11Bit PWM Output" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="9-bit PWM Example"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>9-bit PWM Example&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example project uses the PCA's PWM Output Mode to generate a
+9-bit PWM Square Wave that is modulated in real time. The software
+example can be configured to output 10-bit and 11-bit resolution
+PWM Square Waves by modifying the source code.&lt;/pre></description>
+    <openedResource>F97x_PCA0_9-10-11Bit_PWM_Output.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_interrupts" label="Interrupts" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="External Interrupts Example"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>External Interrupts Example&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example project uses the User Buttons to demonstrate External
+Interrupts by turning on and off LEDs.
+
+The user can turn on and off LED05 and LED15 by pressing BTN03 and
+BTN04. LED05 will not necessarily correspond to the button state
+since mechanical switches tend to 'bounce'. LED15 is set up to
+continuously toggle until the button is released.&lt;/pre></description>
+    <openedResource>F97x_Interrupts.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

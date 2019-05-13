@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_pca0_software_timer_blinky" label="PCA0 Software Timer Blinky" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="Software Timer Example"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>Software Timer Example&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example project uses the PCA's Software Timer Mode to generate an
+Interrupt that blinks LED05 at 5Hz.&lt;/pre></description>
+    <openedResource>F97x_PCA0_Software_Timer_Blinky.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

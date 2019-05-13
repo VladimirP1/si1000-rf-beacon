@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_timer0_13bittimer" label="Timer0 13bitTimer" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="13-bit Timer0 Example"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>13-bit Timer0 Example&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example program uses Timer0 in 13-bit counter mode to blink
+LED05 at 10Hz.&lt;/pre></description>
+    <openedResource>F97x_Timer0_13bitTimer.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

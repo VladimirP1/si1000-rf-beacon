@@ -1,0 +1,1642 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_BSEG                          
+C:   00000000  l_BSEG_BYTES                    
+C:   00000000  l_CABS                          
+C:   00000000  l_CONST                         
+C:   00000000  l_GSINIT                        
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000004  l_OSEG                          
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000011  l_HOME                          
+C:   00000011  s_GSINIT0                       
+C:   00000012  s_OSEG                          
+C:   00000014  s_GSINIT1                       
+C:   00000014  s_GSINIT2                       
+C:   00000016  s_SSEG                          
+C:   00000018  s_BIT_BANK                      
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000018  s_REG_BANK_3                    
+C:   0000001E  s_GSINIT3                       
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000040  s_GSINIT4                       
+C:   0000006A  s_GSFINAL                       
+C:   0000006A  s_GSINIT                        
+C:   0000006A  s_GSINIT5                       
+C:   0000006D  s_CSEG                          
+C:   00000080  l_DSEG                          
+C:   000000EA  l_SSEG                          
+C:   00000100  l_IRAM                          
+C:   000004D6  l_CSEG                          
+C:   00000543  s_CONST                         
+C:   00000543  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000043  G$RadioStatus$0$0                  Si100x_TxTone
+     00000043  _RadioStatus                       Si100x_TxTone
+     00000080  G$P0$0$0                           Si100x_TxTone
+     00000080  _P0                                Si100x_TxTone
+     00000081  G$IRQ$0$0                          Si100x_TxTone
+     00000081  G$SP$0$0                           Si100x_TxTone
+     00000081  _IRQ                               Si100x_TxTone
+     00000081  _SP                                Si100x_TxTone
+     00000082  G$DPL$0$0                          Si100x_TxTone
+     00000082  _DPL                               Si100x_TxTone
+     00000083  G$DPH$0$0                          Si100x_TxTone
+     00000083  _DPH                               Si100x_TxTone
+     00000084  G$SPI1CFG$0$0                      Si100x_TxTone
+     00000084  _SPI1CFG                           Si100x_TxTone
+     00000085  G$SPI1CKR$0$0                      Si100x_TxTone
+     00000085  G$TOFFL$0$0                        Si100x_TxTone
+     00000085  _SPI1CKR                           Si100x_TxTone
+     00000085  _TOFFL                             Si100x_TxTone
+     00000086  G$SPI1DAT$0$0                      Si100x_TxTone
+     00000086  G$TOFFH$0$0                        Si100x_TxTone
+     00000086  _SPI1DAT                           Si100x_TxTone
+     00000086  _TOFFH                             Si100x_TxTone
+     00000087  G$PCON$0$0                         Si100x_TxTone
+     00000087  _PCON                              Si100x_TxTone
+     00000088  G$IT0$0$0                          Si100x_TxTone
+     00000088  G$TCON$0$0                         Si100x_TxTone
+     00000088  _IT0                               Si100x_TxTone
+     00000088  _TCON                              Si100x_TxTone
+     00000089  G$IE0$0$0                          Si100x_TxTone
+     00000089  G$TMOD$0$0                         Si100x_TxTone
+     00000089  _IE0                               Si100x_TxTone
+     00000089  _TMOD                              Si100x_TxTone
+     0000008A  G$IT1$0$0                          Si100x_TxTone
+     0000008A  G$TL0$0$0                          Si100x_TxTone
+     0000008A  _IT1                               Si100x_TxTone
+     0000008A  _TL0                               Si100x_TxTone
+     0000008B  G$IE1$0$0                          Si100x_TxTone
+     0000008B  G$TL1$0$0                          Si100x_TxTone
+     0000008B  _IE1                               Si100x_TxTone
+     0000008B  _TL1                               Si100x_TxTone
+     0000008C  G$TH0$0$0                          Si100x_TxTone
+     0000008C  G$TR0$0$0                          Si100x_TxTone
+     0000008C  _TH0                               Si100x_TxTone
+     0000008C  _TR0                               Si100x_TxTone
+     0000008D  G$TF0$0$0                          Si100x_TxTone
+     0000008D  G$TH1$0$0                          Si100x_TxTone
+     0000008D  _TF0                               Si100x_TxTone
+     0000008D  _TH1                               Si100x_TxTone
+     0000008E  G$CKCON$0$0                        Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008E  G$TR1$0$0                          Si100x_TxTone
+     0000008E  _CKCON                             Si100x_TxTone
+     0000008E  _TR1                               Si100x_TxTone
+     0000008F  G$PSCTL$0$0                        Si100x_TxTone
+     0000008F  G$TF1$0$0                          Si100x_TxTone
+     0000008F  _PSCTL                             Si100x_TxTone
+     0000008F  _TF1                               Si100x_TxTone
+     00000090  G$P1$0$0                           Si100x_TxTone
+     00000090  _P1                                Si100x_TxTone
+     00000091  G$CRC0DAT$0$0                      Si100x_TxTone
+     00000091  G$TMR3CN$0$0                       Si100x_TxTone
+     00000091  _CRC0DAT                           Si100x_TxTone
+     00000091  _TMR3CN                            Si100x_TxTone
+     00000092  G$CRC0CN$0$0                       Si100x_TxTone
+     00000092  G$TMR3RLL$0$0                      Si100x_TxTone
+     00000092  _CRC0CN                            Si100x_TxTone
+     00000092  _TMR3RLL                           Si100x_TxTone
+     00000093  G$CRC0IN$0$0                       Si100x_TxTone
+     00000093  G$TMR3RLH$0$0                      Si100x_TxTone
+     00000093  _CRC0IN                            Si100x_TxTone
+     00000093  _TMR3RLH                           Si100x_TxTone
+     00000094  G$NSS1$0$0                         Si100x_TxTone
+     00000094  G$TMR3L$0$0                        Si100x_TxTone
+     00000094  _NSS1                              Si100x_TxTone
+     00000094  _TMR3L                             Si100x_TxTone
+     00000095  G$CRC0FLIP$0$0                     Si100x_TxTone
+     00000095  G$LED$0$0                          Si100x_TxTone
+     00000095  G$TMR3H$0$0                        Si100x_TxTone
+     00000095  _CRC0FLIP                          Si100x_TxTone
+     00000095  _LED                               Si100x_TxTone
+     00000095  _TMR3H                             Si100x_TxTone
+     00000096  G$CRC0AUTO$0$0                     Si100x_TxTone
+     00000096  G$DC0CF$0$0                        Si100x_TxTone
+     00000096  _CRC0AUTO                          Si100x_TxTone
+     00000096  _DC0CF                             Si100x_TxTone
+     00000097  G$CRC0CNT$0$0                      Si100x_TxTone
+     00000097  G$DC0CN$0$0                        Si100x_TxTone
+     00000097  _CRC0CNT                           Si100x_TxTone
+     00000097  _DC0CN                             Si100x_TxTone
+     00000098  G$RI0$0$0                          Si100x_TxTone
+     00000098  G$SCON0$0$0                        Si100x_TxTone
+     00000098  _RI0                               Si100x_TxTone
+     00000098  _SCON0                             Si100x_TxTone
+     00000099  G$SBUF0$0$0                        Si100x_TxTone
+     00000099  G$TI0$0$0                          Si100x_TxTone
+     00000099  _SBUF0                             Si100x_TxTone
+     00000099  _TI0                               Si100x_TxTone
+     0000009A  G$CPT1CN$0$0                       Si100x_TxTone
+     0000009A  G$RB80$0$0                         Si100x_TxTone
+     0000009A  _CPT1CN                            Si100x_TxTone
+     0000009A  _RB80                              Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000009B  G$CPT0CN$0$0                       Si100x_TxTone
+     0000009B  G$TB80$0$0                         Si100x_TxTone
+     0000009B  _CPT0CN                            Si100x_TxTone
+     0000009B  _TB80                              Si100x_TxTone
+     0000009C  G$CPT1MD$0$0                       Si100x_TxTone
+     0000009C  G$REN0$0$0                         Si100x_TxTone
+     0000009C  _CPT1MD                            Si100x_TxTone
+     0000009C  _REN0                              Si100x_TxTone
+     0000009D  G$CPT0MD$0$0                       Si100x_TxTone
+     0000009D  G$MCE0$0$0                         Si100x_TxTone
+     0000009D  _CPT0MD                            Si100x_TxTone
+     0000009D  _MCE0                              Si100x_TxTone
+     0000009E  G$CPT1MX$0$0                       Si100x_TxTone
+     0000009E  _CPT1MX                            Si100x_TxTone
+     0000009F  G$CPT0MX$0$0                       Si100x_TxTone
+     0000009F  G$S0MODE$0$0                       Si100x_TxTone
+     0000009F  _CPT0MX                            Si100x_TxTone
+     0000009F  _S0MODE                            Si100x_TxTone
+     000000A0  G$P2$0$0                           Si100x_TxTone
+     000000A0  _P2                                Si100x_TxTone
+     000000A1  G$SPI0CFG$0$0                      Si100x_TxTone
+     000000A1  _SPI0CFG                           Si100x_TxTone
+     000000A2  G$SPI0CKR$0$0                      Si100x_TxTone
+     000000A2  _SPI0CKR                           Si100x_TxTone
+     000000A3  G$SPI0DAT$0$0                      Si100x_TxTone
+     000000A3  _SPI0DAT                           Si100x_TxTone
+     000000A4  G$P0DRV$0$0                        Si100x_TxTone
+     000000A4  G$P0MDOUT$0$0                      Si100x_TxTone
+     000000A4  _P0DRV                             Si100x_TxTone
+     000000A4  _P0MDOUT                           Si100x_TxTone
+     000000A5  G$P1DRV$0$0                        Si100x_TxTone
+     000000A5  G$P1MDOUT$0$0                      Si100x_TxTone
+     000000A5  _P1DRV                             Si100x_TxTone
+     000000A5  _P1MDOUT                           Si100x_TxTone
+     000000A6  G$P2DRV$0$0                        Si100x_TxTone
+     000000A6  G$P2MDOUT$0$0                      Si100x_TxTone
+     000000A6  G$SDN$0$0                          Si100x_TxTone
+     000000A6  _P2DRV                             Si100x_TxTone
+     000000A6  _P2MDOUT                           Si100x_TxTone
+     000000A6  _SDN                               Si100x_TxTone
+     000000A7  G$SFRPAGE$0$0                      Si100x_TxTone
+     000000A7  _SFRPAGE                           Si100x_TxTone
+     000000A8  G$EX0$0$0                          Si100x_TxTone
+     000000A8  G$IE$0$0                           Si100x_TxTone
+     000000A8  _EX0                               Si100x_TxTone
+     000000A8  _IE                                Si100x_TxTone
+     000000A9  G$CLKSEL$0$0                       Si100x_TxTone
+     000000A9  G$ET0$0$0                          Si100x_TxTone
+     000000A9  _CLKSEL                            Si100x_TxTone
+     000000A9  _ET0                               Si100x_TxTone
+     000000AA  G$EMI0CN$0$0                       Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000AA  G$EX1$0$0                          Si100x_TxTone
+     000000AA  G$_XPAGE$0$0                       Si100x_TxTone
+     000000AA  _EMI0CN                            Si100x_TxTone
+     000000AA  _EX1                               Si100x_TxTone
+     000000AA  __XPAGE                            Si100x_TxTone
+     000000AB  G$EMI0CF$0$0                       Si100x_TxTone
+     000000AB  G$ET1$0$0                          Si100x_TxTone
+     000000AB  _EMI0CF                            Si100x_TxTone
+     000000AB  _ET1                               Si100x_TxTone
+     000000AC  G$ES0$0$0                          Si100x_TxTone
+     000000AC  G$RTC0ADR$0$0                      Si100x_TxTone
+     000000AC  _ES0                               Si100x_TxTone
+     000000AC  _RTC0ADR                           Si100x_TxTone
+     000000AD  G$ET2$0$0                          Si100x_TxTone
+     000000AD  G$RTC0DAT$0$0                      Si100x_TxTone
+     000000AD  _ET2                               Si100x_TxTone
+     000000AD  _RTC0DAT                           Si100x_TxTone
+     000000AE  G$ESPI0$0$0                        Si100x_TxTone
+     000000AE  G$RTC0KEY$0$0                      Si100x_TxTone
+     000000AE  _ESPI0                             Si100x_TxTone
+     000000AE  _RTC0KEY                           Si100x_TxTone
+     000000AF  G$EA$0$0                           Si100x_TxTone
+     000000AF  G$EMI0TC$0$0                       Si100x_TxTone
+     000000AF  G$ONESHOT$0$0                      Si100x_TxTone
+     000000AF  _EA                                Si100x_TxTone
+     000000AF  _EMI0TC                            Si100x_TxTone
+     000000AF  _ONESHOT                           Si100x_TxTone
+     000000B0  G$SPI1CN$0$0                       Si100x_TxTone
+     000000B0  G$SPI1EN$0$0                       Si100x_TxTone
+     000000B0  _SPI1CN                            Si100x_TxTone
+     000000B0  _SPI1EN                            Si100x_TxTone
+     000000B1  G$OSCXCN$0$0                       Si100x_TxTone
+     000000B1  G$TXBMT1$0$0                       Si100x_TxTone
+     000000B1  _OSCXCN                            Si100x_TxTone
+     000000B1  _TXBMT1                            Si100x_TxTone
+     000000B2  G$NSS1MD0$0$0                      Si100x_TxTone
+     000000B2  G$OSCICN$0$0                       Si100x_TxTone
+     000000B2  _NSS1MD0                           Si100x_TxTone
+     000000B2  _OSCICN                            Si100x_TxTone
+     000000B3  G$NSS1MD1$0$0                      Si100x_TxTone
+     000000B3  G$OSCICL$0$0                       Si100x_TxTone
+     000000B3  _NSS1MD1                           Si100x_TxTone
+     000000B3  _OSCICL                            Si100x_TxTone
+     000000B4  G$RXOVRN1$0$0                      Si100x_TxTone
+     000000B4  _RXOVRN1                           Si100x_TxTone
+     000000B5  G$MODF1$0$0                        Si100x_TxTone
+     000000B5  G$PMU0CF$0$0                       Si100x_TxTone
+     000000B5  _MODF1                             Si100x_TxTone
+     000000B5  _PMU0CF                            Si100x_TxTone
+     000000B6  G$FLSCL$0$0                        Si100x_TxTone
+     000000B6  G$WCOL1$0$0                        Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B6  _FLSCL                             Si100x_TxTone
+     000000B6  _WCOL1                             Si100x_TxTone
+     000000B7  G$FLKEY$0$0                        Si100x_TxTone
+     000000B7  G$SPIF1$0$0                        Si100x_TxTone
+     000000B7  _FLKEY                             Si100x_TxTone
+     000000B7  _SPIF1                             Si100x_TxTone
+     000000B8  G$IP$0$0                           Si100x_TxTone
+     000000B8  G$PX0$0$0                          Si100x_TxTone
+     000000B8  _IP                                Si100x_TxTone
+     000000B8  _PX0                               Si100x_TxTone
+     000000B9  G$IREF0CN$0$0                      Si100x_TxTone
+     000000B9  G$PT0$0$0                          Si100x_TxTone
+     000000B9  _IREF0CN                           Si100x_TxTone
+     000000B9  _PT0                               Si100x_TxTone
+     000000BA  G$ADC0AC$0$0                       Si100x_TxTone
+     000000BA  G$ADC0PWR$0$0                      Si100x_TxTone
+     000000BA  G$PX1$0$0                          Si100x_TxTone
+     000000BA  _ADC0AC                            Si100x_TxTone
+     000000BA  _ADC0PWR                           Si100x_TxTone
+     000000BA  _PX1                               Si100x_TxTone
+     000000BB  G$ADC0MX$0$0                       Si100x_TxTone
+     000000BB  G$PT1$0$0                          Si100x_TxTone
+     000000BB  _ADC0MX                            Si100x_TxTone
+     000000BB  _PT1                               Si100x_TxTone
+     000000BC  G$ADC0CF$0$0                       Si100x_TxTone
+     000000BC  G$PS0$0$0                          Si100x_TxTone
+     000000BC  _ADC0CF                            Si100x_TxTone
+     000000BC  _PS0                               Si100x_TxTone
+     000000BD  G$ADC0L$0$0                        Si100x_TxTone
+     000000BD  G$ADC0TK$0$0                       Si100x_TxTone
+     000000BD  G$PT2$0$0                          Si100x_TxTone
+     000000BD  _ADC0L                             Si100x_TxTone
+     000000BD  _ADC0TK                            Si100x_TxTone
+     000000BD  _PT2                               Si100x_TxTone
+     000000BE  G$ADC0H$0$0                        Si100x_TxTone
+     000000BE  G$PSPI0$0$0                        Si100x_TxTone
+     000000BE  _ADC0H                             Si100x_TxTone
+     000000BE  _PSPI0                             Si100x_TxTone
+     000000BF  G$P1MASK$0$0                       Si100x_TxTone
+     000000BF  _P1MASK                            Si100x_TxTone
+     000000C0  G$SI$0$0                           Si100x_TxTone
+     000000C0  G$SMB0CN$0$0                       Si100x_TxTone
+     000000C0  _SI                                Si100x_TxTone
+     000000C0  _SMB0CN                            Si100x_TxTone
+     000000C1  G$ACK$0$0                          Si100x_TxTone
+     000000C1  G$SMB0CF$0$0                       Si100x_TxTone
+     000000C1  _ACK                               Si100x_TxTone
+     000000C1  _SMB0CF                            Si100x_TxTone
+     000000C2  G$ARBLOST$0$0                      Si100x_TxTone
+     000000C2  G$SMB0DAT$0$0                      Si100x_TxTone
+     000000C2  _ARBLOST                           Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C2  _SMB0DAT                           Si100x_TxTone
+     000000C3  G$ACKRQ$0$0                        Si100x_TxTone
+     000000C3  G$ADC0GTL$0$0                      Si100x_TxTone
+     000000C3  _ACKRQ                             Si100x_TxTone
+     000000C3  _ADC0GTL                           Si100x_TxTone
+     000000C4  G$ADC0GTH$0$0                      Si100x_TxTone
+     000000C4  G$STO$0$0                          Si100x_TxTone
+     000000C4  _ADC0GTH                           Si100x_TxTone
+     000000C4  _STO                               Si100x_TxTone
+     000000C5  G$ADC0LTL$0$0                      Si100x_TxTone
+     000000C5  G$STA$0$0                          Si100x_TxTone
+     000000C5  _ADC0LTL                           Si100x_TxTone
+     000000C5  _STA                               Si100x_TxTone
+     000000C6  G$ADC0LTH$0$0                      Si100x_TxTone
+     000000C6  G$TXMODE$0$0                       Si100x_TxTone
+     000000C6  _ADC0LTH                           Si100x_TxTone
+     000000C6  _TXMODE                            Si100x_TxTone
+     000000C7  G$MASTER$0$0                       Si100x_TxTone
+     000000C7  G$P0MASK$0$0                       Si100x_TxTone
+     000000C7  _MASTER                            Si100x_TxTone
+     000000C7  _P0MASK                            Si100x_TxTone
+     000000C8  G$T2XCLK$0$0                       Si100x_TxTone
+     000000C8  G$TMR2CN$0$0                       Si100x_TxTone
+     000000C8  _T2XCLK                            Si100x_TxTone
+     000000C8  _TMR2CN                            Si100x_TxTone
+     000000C9  G$REG0CN$0$0                       Si100x_TxTone
+     000000C9  G$T2RCLK$0$0                       Si100x_TxTone
+     000000C9  _REG0CN                            Si100x_TxTone
+     000000C9  _T2RCLK                            Si100x_TxTone
+     000000CA  G$TMR2RLL$0$0                      Si100x_TxTone
+     000000CA  G$TR2$0$0                          Si100x_TxTone
+     000000CA  _TMR2RLL                           Si100x_TxTone
+     000000CA  _TR2                               Si100x_TxTone
+     000000CB  G$T2SPLIT$0$0                      Si100x_TxTone
+     000000CB  G$TMR2RLH$0$0                      Si100x_TxTone
+     000000CB  _T2SPLIT                           Si100x_TxTone
+     000000CB  _TMR2RLH                           Si100x_TxTone
+     000000CC  G$TF2CEN$0$0                       Si100x_TxTone
+     000000CC  G$TMR2L$0$0                        Si100x_TxTone
+     000000CC  _TF2CEN                            Si100x_TxTone
+     000000CC  _TMR2L                             Si100x_TxTone
+     000000CD  G$TF2LEN$0$0                       Si100x_TxTone
+     000000CD  G$TMR2H$0$0                        Si100x_TxTone
+     000000CD  _TF2LEN                            Si100x_TxTone
+     000000CD  _TMR2H                             Si100x_TxTone
+     000000CE  G$PCA0CPM5$0$0                     Si100x_TxTone
+     000000CE  G$TF2L$0$0                         Si100x_TxTone
+     000000CE  _PCA0CPM5                          Si100x_TxTone
+     000000CE  _TF2L                              Si100x_TxTone
+     000000CF  G$P1MAT$0$0                        Si100x_TxTone
+     000000CF  G$TF2H$0$0                         Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CF  _P1MAT                             Si100x_TxTone
+     000000CF  _TF2H                              Si100x_TxTone
+     000000D0  G$P$0$0                            Si100x_TxTone
+     000000D0  G$PSW$0$0                          Si100x_TxTone
+     000000D0  _P                                 Si100x_TxTone
+     000000D0  _PSW                               Si100x_TxTone
+     000000D1  G$F1$0$0                           Si100x_TxTone
+     000000D1  G$REF0CN$0$0                       Si100x_TxTone
+     000000D1  _F1                                Si100x_TxTone
+     000000D1  _REF0CN                            Si100x_TxTone
+     000000D2  G$OV$0$0                           Si100x_TxTone
+     000000D2  G$PCA0CPL5$0$0                     Si100x_TxTone
+     000000D2  _OV                                Si100x_TxTone
+     000000D2  _PCA0CPL5                          Si100x_TxTone
+     000000D3  G$PCA0CPH5$0$0                     Si100x_TxTone
+     000000D3  G$RS0$0$0                          Si100x_TxTone
+     000000D3  _PCA0CPH5                          Si100x_TxTone
+     000000D3  _RS0                               Si100x_TxTone
+     000000D4  G$P0SKIP$0$0                       Si100x_TxTone
+     000000D4  G$RS1$0$0                          Si100x_TxTone
+     000000D4  _P0SKIP                            Si100x_TxTone
+     000000D4  _RS1                               Si100x_TxTone
+     000000D5  G$F0$0$0                           Si100x_TxTone
+     000000D5  G$P1SKIP$0$0                       Si100x_TxTone
+     000000D5  _F0                                Si100x_TxTone
+     000000D5  _P1SKIP                            Si100x_TxTone
+     000000D6  G$AC$0$0                           Si100x_TxTone
+     000000D6  G$P2SKIP$0$0                       Si100x_TxTone
+     000000D6  _AC                                Si100x_TxTone
+     000000D6  _P2SKIP                            Si100x_TxTone
+     000000D7  G$CY$0$0                           Si100x_TxTone
+     000000D7  G$P0MAT$0$0                        Si100x_TxTone
+     000000D7  _CY                                Si100x_TxTone
+     000000D7  _P0MAT                             Si100x_TxTone
+     000000D8  G$CCF0$0$0                         Si100x_TxTone
+     000000D8  G$PCA0CN$0$0                       Si100x_TxTone
+     000000D8  _CCF0                              Si100x_TxTone
+     000000D8  _PCA0CN                            Si100x_TxTone
+     000000D9  G$CCF1$0$0                         Si100x_TxTone
+     000000D9  G$PCA0MD$0$0                       Si100x_TxTone
+     000000D9  _CCF1                              Si100x_TxTone
+     000000D9  _PCA0MD                            Si100x_TxTone
+     000000DA  G$CCF2$0$0                         Si100x_TxTone
+     000000DA  G$PCA0CPM0$0$0                     Si100x_TxTone
+     000000DA  _CCF2                              Si100x_TxTone
+     000000DA  _PCA0CPM0                          Si100x_TxTone
+     000000DB  G$CCF3$0$0                         Si100x_TxTone
+     000000DB  G$PCA0CPM1$0$0                     Si100x_TxTone
+     000000DB  _CCF3                              Si100x_TxTone
+     000000DB  _PCA0CPM1                          Si100x_TxTone
+     000000DC  G$CCF4$0$0                         Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000DC  G$PCA0CPM2$0$0                     Si100x_TxTone
+     000000DC  _CCF4                              Si100x_TxTone
+     000000DC  _PCA0CPM2                          Si100x_TxTone
+     000000DD  G$CCF5$0$0                         Si100x_TxTone
+     000000DD  G$PCA0CPM3$0$0                     Si100x_TxTone
+     000000DD  _CCF5                              Si100x_TxTone
+     000000DD  _PCA0CPM3                          Si100x_TxTone
+     000000DE  G$CR$0$0                           Si100x_TxTone
+     000000DE  G$PCA0CPM4$0$0                     Si100x_TxTone
+     000000DE  _CR                                Si100x_TxTone
+     000000DE  _PCA0CPM4                          Si100x_TxTone
+     000000DF  G$CF$0$0                           Si100x_TxTone
+     000000DF  G$PCA0PWM$0$0                      Si100x_TxTone
+     000000DF  _CF                                Si100x_TxTone
+     000000DF  _PCA0PWM                           Si100x_TxTone
+     000000E0  G$ACC$0$0                          Si100x_TxTone
+     000000E0  _ACC                               Si100x_TxTone
+     000000E1  G$XBR0$0$0                         Si100x_TxTone
+     000000E1  _XBR0                              Si100x_TxTone
+     000000E2  G$XBR1$0$0                         Si100x_TxTone
+     000000E2  _XBR1                              Si100x_TxTone
+     000000E3  G$XBR2$0$0                         Si100x_TxTone
+     000000E3  _XBR2                              Si100x_TxTone
+     000000E4  G$IT01CF$0$0                       Si100x_TxTone
+     000000E4  _IT01CF                            Si100x_TxTone
+     000000E5  G$FLWR$0$0                         Si100x_TxTone
+     000000E5  _FLWR                              Si100x_TxTone
+     000000E6  G$EIE1$0$0                         Si100x_TxTone
+     000000E6  _EIE1                              Si100x_TxTone
+     000000E7  G$EIE2$0$0                         Si100x_TxTone
+     000000E7  _EIE2                              Si100x_TxTone
+     000000E8  G$AD0CM0$0$0                       Si100x_TxTone
+     000000E8  G$ADC0CN$0$0                       Si100x_TxTone
+     000000E8  _AD0CM0                            Si100x_TxTone
+     000000E8  _ADC0CN                            Si100x_TxTone
+     000000E9  G$AD0CM1$0$0                       Si100x_TxTone
+     000000E9  G$PCA0CPL1$0$0                     Si100x_TxTone
+     000000E9  _AD0CM1                            Si100x_TxTone
+     000000E9  _PCA0CPL1                          Si100x_TxTone
+     000000EA  G$AD0CM2$0$0                       Si100x_TxTone
+     000000EA  G$PCA0CPH1$0$0                     Si100x_TxTone
+     000000EA  _AD0CM2                            Si100x_TxTone
+     000000EA  _PCA0CPH1                          Si100x_TxTone
+     000000EB  G$AD0WINT$0$0                      Si100x_TxTone
+     000000EB  G$PCA0CPL2$0$0                     Si100x_TxTone
+     000000EB  _AD0WINT                           Si100x_TxTone
+     000000EB  _PCA0CPL2                          Si100x_TxTone
+     000000EC  G$AD0BUSY$0$0                      Si100x_TxTone
+     000000EC  G$PCA0CPH2$0$0                     Si100x_TxTone
+     000000EC  _AD0BUSY                           Si100x_TxTone
+     000000EC  _PCA0CPH2                          Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000ED  G$AD0INT$0$0                       Si100x_TxTone
+     000000ED  G$PCA0CPL3$0$0                     Si100x_TxTone
+     000000ED  _AD0INT                            Si100x_TxTone
+     000000ED  _PCA0CPL3                          Si100x_TxTone
+     000000EE  G$BURSTEN$0$0                      Si100x_TxTone
+     000000EE  G$PCA0CPH3$0$0                     Si100x_TxTone
+     000000EE  _BURSTEN                           Si100x_TxTone
+     000000EE  _PCA0CPH3                          Si100x_TxTone
+     000000EF  G$AD0EN$0$0                        Si100x_TxTone
+     000000EF  G$RSTSRC$0$0                       Si100x_TxTone
+     000000EF  _AD0EN                             Si100x_TxTone
+     000000EF  _RSTSRC                            Si100x_TxTone
+     000000F0  G$B$0$0                            Si100x_TxTone
+     000000F0  _B                                 Si100x_TxTone
+     000000F1  G$P0MDIN$0$0                       Si100x_TxTone
+     000000F1  _P0MDIN                            Si100x_TxTone
+     000000F2  G$P1MDIN$0$0                       Si100x_TxTone
+     000000F2  _P1MDIN                            Si100x_TxTone
+     000000F3  G$P2MDIN$0$0                       Si100x_TxTone
+     000000F3  _P2MDIN                            Si100x_TxTone
+     000000F4  G$SMB0ADR$0$0                      Si100x_TxTone
+     000000F4  _SMB0ADR                           Si100x_TxTone
+     000000F5  G$SMB0ADM$0$0                      Si100x_TxTone
+     000000F5  _SMB0ADM                           Si100x_TxTone
+     000000F6  G$EIP1$0$0                         Si100x_TxTone
+     000000F6  _EIP1                              Si100x_TxTone
+     000000F7  G$EIP2$0$0                         Si100x_TxTone
+     000000F7  _EIP2                              Si100x_TxTone
+     000000F8  G$SPI0CN$0$0                       Si100x_TxTone
+     000000F8  G$SPI0EN$0$0                       Si100x_TxTone
+     000000F8  _SPI0CN                            Si100x_TxTone
+     000000F8  _SPI0EN                            Si100x_TxTone
+     000000F9  G$PCA0L$0$0                        Si100x_TxTone
+     000000F9  G$TXBMT0$0$0                       Si100x_TxTone
+     000000F9  _PCA0L                             Si100x_TxTone
+     000000F9  _TXBMT0                            Si100x_TxTone
+     000000FA  G$NSS0MD0$0$0                      Si100x_TxTone
+     000000FA  G$PCA0H$0$0                        Si100x_TxTone
+     000000FA  _NSS0MD0                           Si100x_TxTone
+     000000FA  _PCA0H                             Si100x_TxTone
+     000000FB  G$NSS0MD1$0$0                      Si100x_TxTone
+     000000FB  G$PCA0CPL0$0$0                     Si100x_TxTone
+     000000FB  _NSS0MD1                           Si100x_TxTone
+     000000FB  _PCA0CPL0                          Si100x_TxTone
+     000000FC  G$PCA0CPH0$0$0                     Si100x_TxTone
+     000000FC  G$RXOVRN0$0$0                      Si100x_TxTone
+     000000FC  _PCA0CPH0                          Si100x_TxTone
+     000000FC  _RXOVRN0                           Si100x_TxTone
+     000000FD  G$MODF0$0$0                        Si100x_TxTone
+     000000FD  G$PCA0CPL4$0$0                     Si100x_TxTone
+     000000FD  _MODF0                             Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000FD  _PCA0CPL4                          Si100x_TxTone
+     000000FE  G$PCA0CPH4$0$0                     Si100x_TxTone
+     000000FE  G$WCOL0$0$0                        Si100x_TxTone
+     000000FE  _PCA0CPH4                          Si100x_TxTone
+     000000FE  _WCOL0                             Si100x_TxTone
+     000000FF  G$SPIF0$0$0                        Si100x_TxTone
+     000000FF  G$VDM0CN$0$0                       Si100x_TxTone
+     000000FF  _SPIF0                             Si100x_TxTone
+     000000FF  _VDM0CN                            Si100x_TxTone
+     00008382  G$DP$0$0                           Si100x_TxTone
+     00008382  _DP                                Si100x_TxTone
+     00008685  G$TOFF$0$0                         Si100x_TxTone
+     00008685  _TOFF                              Si100x_TxTone
+     00009392  G$TMR3RL$0$0                       Si100x_TxTone
+     00009392  _TMR3RL                            Si100x_TxTone
+     00009594  G$TMR3$0$0                         Si100x_TxTone
+     00009594  _TMR3                              Si100x_TxTone
+     0000BEBD  G$ADC0$0$0                         Si100x_TxTone
+     0000BEBD  _ADC0                              Si100x_TxTone
+     0000C4C3  G$ADC0GT$0$0                       Si100x_TxTone
+     0000C4C3  _ADC0GT                            Si100x_TxTone
+     0000C6C5  G$ADC0LT$0$0                       Si100x_TxTone
+     0000C6C5  _ADC0LT                            Si100x_TxTone
+     0000CBCA  G$TMR2RL$0$0                       Si100x_TxTone
+     0000CBCA  _TMR2RL                            Si100x_TxTone
+     0000CDCC  G$TMR2$0$0                         Si100x_TxTone
+     0000CDCC  _TMR2                              Si100x_TxTone
+     0000D3D2  G$PCA0CP5$0$0                      Si100x_TxTone
+     0000D3D2  _PCA0CP5                           Si100x_TxTone
+     0000EAE9  G$PCA0CP1$0$0                      Si100x_TxTone
+     0000EAE9  _PCA0CP1                           Si100x_TxTone
+     0000ECEB  G$PCA0CP2$0$0                      Si100x_TxTone
+     0000ECEB  _PCA0CP2                           Si100x_TxTone
+     0000EEED  G$PCA0CP3$0$0                      Si100x_TxTone
+     0000EEED  _PCA0CP3                           Si100x_TxTone
+     0000FAF9  G$PCA0$0$0                         Si100x_TxTone
+     0000FAF9  _PCA0                              Si100x_TxTone
+     0000FCFB  G$PCA0CP0$0$0                      Si100x_TxTone
+     0000FCFB  _PCA0CP0                           Si100x_TxTone
+     0000FEFD  G$PCA0CP4$0$0                      Si100x_TxTone
+     0000FEFD  _PCA0CP4                           Si100x_TxTone
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000080 =         128. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  LSi100x_TxTone.setTRxFrequency$f   Si100x_TxTone
+     0000000C  LSi100x_TxTone.setTRxFrequency$n   Si100x_TxTone
+     0000000E  LSi100x_TxTone.divideWithRoundin   Si100x_TxTone
+     0000000E  _divideWithRounding_PARM_2         Si100x_TxTone
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000012    00000004 =           4. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000012  LSi100x_TxTone.SetTimeOut$reload   Si100x_TxTone
+     00000012  LSi100x_TxTone.delay$reload$1$38   Si100x_TxTone
+     00000012  LSi100x_TxTone.phyWrite$value$1$   Si100x_TxTone
+     00000012  __divslong_PARM_2                  _divulong
+     00000012  __divulong_PARM_2                  _divulong
+     00000012  __mullong_PARM_2                   _mullong
+     00000012  _phyWrite_PARM_2                   Si100x_TxTone
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000016    000000EA =         234. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000016  __start__stack                     Si100x_TxTone
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000011 =          17. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$Si100x_TxTone$870                Si100x_TxTone
+C:   00000003  A$Si100x_TxTone$871                Si100x_TxTone
+C:   0000000B  A$Si100x_TxTone$873                Si100x_TxTone
+C:   0000000E  A$Si100x_TxTone$895                Si100x_TxTone
+C:   0000000E  __sdcc_program_startup             Si100x_TxTone
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000011    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000011  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000014    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             0000001E    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000001E  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000040    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000040  __mcs51_genRAMCLEAR                
+C:   00000046  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000006A    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000006A  A$Si100x_TxTone$888                Si100x_TxTone
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000006D  A$Si100x_TxTone$923                Si100x_TxTone
+C:   0000006D  C$Si100x_TxTone.c$150$0$0          Si100x_TxTone
+C:   0000006D  C$Si100x_TxTone.c$154$1$15         Si100x_TxTone
+C:   0000006D  G$main$0$0                         Si100x_TxTone
+C:   0000006D  _main                              Si100x_TxTone
+C:   00000070  A$Si100x_TxTone$926                Si100x_TxTone
+C:   00000070  C$Si100x_TxTone.c$164$1$15         Si100x_TxTone
+C:   00000073  A$Si100x_TxTone$929                Si100x_TxTone
+C:   00000073  C$Si100x_TxTone.c$165$1$15         Si100x_TxTone
+C:   00000076  A$Si100x_TxTone$932                Si100x_TxTone
+C:   00000076  C$Si100x_TxTone.c$166$1$15         Si100x_TxTone
+C:   00000079  A$Si100x_TxTone$936                Si100x_TxTone
+C:   00000079  C$Si100x_TxTone.c$168$1$15         Si100x_TxTone
+C:   0000007B  A$Si100x_TxTone$939                Si100x_TxTone
+C:   0000007B  C$Si100x_TxTone.c$170$1$15         Si100x_TxTone
+C:   0000007E  A$Si100x_TxTone$940                Si100x_TxTone
+C:   00000081  A$Si100x_TxTone$944                Si100x_TxTone
+C:   00000081  C$Si100x_TxTone.c$173$1$15         Si100x_TxTone
+C:   00000083  A$Si100x_TxTone$945                Si100x_TxTone
+C:   00000085  A$Si100x_TxTone$948                Si100x_TxTone
+C:   00000085  C$Si100x_TxTone.c$178$1$15         Si100x_TxTone
+C:   00000088  A$Si100x_TxTone$949                Si100x_TxTone
+C:   0000008B  A$Si100x_TxTone$950                Si100x_TxTone
+C:   0000008D  A$Si100x_TxTone$951                Si100x_TxTone
+C:   00000090  A$Si100x_TxTone$954                Si100x_TxTone
+C:   00000090  C$Si100x_TxTone.c$194$1$15         Si100x_TxTone
+C:   00000093  A$Si100x_TxTone$955                Si100x_TxTone
+C:   00000096  A$Si100x_TxTone$958                Si100x_TxTone
+C:   00000096  C$Si100x_TxTone.c$197$1$15         Si100x_TxTone
+C:   00000099  A$Si100x_TxTone$959                Si100x_TxTone
+C:   0000009C  A$Si100x_TxTone$960                Si100x_TxTone
+C:   0000009F  A$Si100x_TxTone$963                Si100x_TxTone
+C:   0000009F  C$Si100x_TxTone.c$203$1$15         Si100x_TxTone
+C:   000000A2  A$Si100x_TxTone$964                Si100x_TxTone
+C:   000000A5  A$Si100x_TxTone$965                Si100x_TxTone
+C:   000000A8  A$Si100x_TxTone$968                Si100x_TxTone
+C:   000000A8  C$Si100x_TxTone.c$204$1$15         Si100x_TxTone
+C:   000000AB  A$Si100x_TxTone$969                Si100x_TxTone
+C:   000000AE  A$Si100x_TxTone$970                Si100x_TxTone
+C:   000000B1  A$Si100x_TxTone$973                Si100x_TxTone
+C:   000000B1  C$Si100x_TxTone.c$208$1$15         Si100x_TxTone
+C:   000000B4  A$Si100x_TxTone$974                Si100x_TxTone
+C:   000000B7  A$Si100x_TxTone$975                Si100x_TxTone
+C:   000000BA  A$Si100x_TxTone$978                Si100x_TxTone
+C:   000000BA  C$Si100x_TxTone.c$210$1$15         Si100x_TxTone
+C:   000000BD  A$Si100x_TxTone$979                Si100x_TxTone
+C:   000000C0  A$Si100x_TxTone$982                Si100x_TxTone
+C:   000000C0  C$Si100x_TxTone.c$212$1$15         Si100x_TxTone
+C:   000000C3  A$Si100x_TxTone$983                Si100x_TxTone
+C:   000000C6  A$Si100x_TxTone$984                Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000C8  A$Si100x_TxTone$987                Si100x_TxTone
+C:   000000C8  C$Si100x_TxTone.c$215$1$15         Si100x_TxTone
+C:   000000CA  A$Si100x_TxTone$988                Si100x_TxTone
+C:   000000CB  A$Si100x_TxTone$989                Si100x_TxTone
+C:   000000CE  A$Si100x_TxTone$995                Si100x_TxTone
+C:   000000CE  C$Si100x_TxTone.c$218$2$16         Si100x_TxTone
+C:   000000CE  C$Si100x_TxTone.c$220$3$17         Si100x_TxTone
+C:   000000D0  A$Si100x_TxTone$998                Si100x_TxTone
+C:   000000D0  C$Si100x_TxTone.c$221$3$17         Si100x_TxTone
+C:   000000D3  A$Si100x_TxTone$999                Si100x_TxTone
+C:   000000D6  A$Si100x_TxTone$1002               Si100x_TxTone
+C:   000000D6  C$Si100x_TxTone.c$222$3$17         Si100x_TxTone
+C:   000000D9  A$Si100x_TxTone$1003               Si100x_TxTone
+C:   000000DC  A$Si100x_TxTone$1006               Si100x_TxTone
+C:   000000DC  C$Si100x_TxTone.c$223$3$17         Si100x_TxTone
+C:   000000DF  A$Si100x_TxTone$1007               Si100x_TxTone
+C:   000000E2  A$Si100x_TxTone$1010               Si100x_TxTone
+C:   000000E2  C$Si100x_TxTone.c$224$3$17         Si100x_TxTone
+C:   000000E5  A$Si100x_TxTone$1011               Si100x_TxTone
+C:   000000E8  A$Si100x_TxTone$1014               Si100x_TxTone
+C:   000000E8  C$Si100x_TxTone.c$228$1$15         Si100x_TxTone
+C:   000000EA  A$Si100x_TxTone$1016               Si100x_TxTone
+C:   000000EC  A$Si100x_TxTone$1019               Si100x_TxTone
+C:   000000EC  C$Si100x_TxTone.c$229$1$15         Si100x_TxTone
+C:   000000EC  XG$main$0$0                        Si100x_TxTone
+C:   000000ED  A$Si100x_TxTone$1032               Si100x_TxTone
+C:   000000ED  C$Si100x_TxTone.c$259$1$15         Si100x_TxTone
+C:   000000ED  C$Si100x_TxTone.c$262$1$19         Si100x_TxTone
+C:   000000ED  G$PortInit$0$0                     Si100x_TxTone
+C:   000000ED  _PortInit                          Si100x_TxTone
+C:   000000F0  A$Si100x_TxTone$1035               Si100x_TxTone
+C:   000000F0  C$Si100x_TxTone.c$263$1$19         Si100x_TxTone
+C:   000000F3  A$Si100x_TxTone$1038               Si100x_TxTone
+C:   000000F3  C$Si100x_TxTone.c$264$1$19         Si100x_TxTone
+C:   000000F6  A$Si100x_TxTone$1041               Si100x_TxTone
+C:   000000F6  C$Si100x_TxTone.c$265$1$19         Si100x_TxTone
+C:   000000F9  A$Si100x_TxTone$1044               Si100x_TxTone
+C:   000000F9  C$Si100x_TxTone.c$266$1$19         Si100x_TxTone
+C:   000000FC  A$Si100x_TxTone$1047               Si100x_TxTone
+C:   000000FC  C$Si100x_TxTone.c$270$1$19         Si100x_TxTone
+C:   000000FF  A$Si100x_TxTone$1050               Si100x_TxTone
+C:   000000FF  C$Si100x_TxTone.c$271$1$19         Si100x_TxTone
+C:   00000102  A$Si100x_TxTone$1053               Si100x_TxTone
+C:   00000102  C$Si100x_TxTone.c$272$1$19         Si100x_TxTone
+C:   00000105  A$Si100x_TxTone$1056               Si100x_TxTone
+C:   00000105  C$Si100x_TxTone.c$273$1$19         Si100x_TxTone
+C:   00000108  A$Si100x_TxTone$1060               Si100x_TxTone
+C:   00000108  C$Si100x_TxTone.c$287$1$19         Si100x_TxTone
+C:   0000010A  A$Si100x_TxTone$1063               Si100x_TxTone
+C:   0000010A  C$Si100x_TxTone.c$289$1$19         Si100x_TxTone
+C:   0000010D  A$Si100x_TxTone$1066               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000010D  C$Si100x_TxTone.c$290$1$19         Si100x_TxTone
+C:   0000010D  XG$PortInit$0$0                    Si100x_TxTone
+C:   0000010E  A$Si100x_TxTone$1079               Si100x_TxTone
+C:   0000010E  C$Si100x_TxTone.c$300$1$19         Si100x_TxTone
+C:   0000010E  C$Si100x_TxTone.c$302$1$21         Si100x_TxTone
+C:   0000010E  G$SYSCLK_Init$0$0                  Si100x_TxTone
+C:   0000010E  _SYSCLK_Init                       Si100x_TxTone
+C:   00000111  A$Si100x_TxTone$1082               Si100x_TxTone
+C:   00000111  C$Si100x_TxTone.c$303$1$21         Si100x_TxTone
+C:   00000111  XG$SYSCLK_Init$0$0                 Si100x_TxTone
+C:   00000112  A$Si100x_TxTone$1095               Si100x_TxTone
+C:   00000112  C$Si100x_TxTone.c$312$1$21         Si100x_TxTone
+C:   00000112  C$Si100x_TxTone.c$315$1$22         Si100x_TxTone
+C:   00000112  G$SPI1_Init$0$0                    Si100x_TxTone
+C:   00000112  _SPI1_Init                         Si100x_TxTone
+C:   00000115  A$Si100x_TxTone$1098               Si100x_TxTone
+C:   00000115  C$Si100x_TxTone.c$316$1$22         Si100x_TxTone
+C:   00000118  A$Si100x_TxTone$1101               Si100x_TxTone
+C:   00000118  C$Si100x_TxTone.c$317$1$22         Si100x_TxTone
+C:   0000011B  A$Si100x_TxTone$1104               Si100x_TxTone
+C:   0000011B  C$Si100x_TxTone.c$318$1$22         Si100x_TxTone
+C:   0000011E  A$Si100x_TxTone$1108               Si100x_TxTone
+C:   0000011E  C$Si100x_TxTone.c$319$1$22         Si100x_TxTone
+C:   00000120  A$Si100x_TxTone$1111               Si100x_TxTone
+C:   00000120  C$Si100x_TxTone.c$320$1$22         Si100x_TxTone
+C:   00000120  XG$SPI1_Init$0$0                   Si100x_TxTone
+C:   00000121  A$Si100x_TxTone$1125               Si100x_TxTone
+C:   00000121  C$Si100x_TxTone.c$335$1$22         Si100x_TxTone
+C:   00000121  G$phyWrite$0$0                     Si100x_TxTone
+C:   00000121  _phyWrite                          Si100x_TxTone
+C:   00000123  A$Si100x_TxTone$1129               Si100x_TxTone
+C:   00000123  C$Si100x_TxTone.c$338$1$24         Si100x_TxTone
+C:   00000125  A$Si100x_TxTone$1133               Si100x_TxTone
+C:   00000125  C$Si100x_TxTone.c$339$1$24         Si100x_TxTone
+C:   00000127  A$Si100x_TxTone$1136               Si100x_TxTone
+C:   00000127  C$Si100x_TxTone.c$340$1$24         Si100x_TxTone
+C:   00000129  A$Si100x_TxTone$1137               Si100x_TxTone
+C:   0000012A  A$Si100x_TxTone$1138               Si100x_TxTone
+C:   0000012C  A$Si100x_TxTone$1142               Si100x_TxTone
+C:   0000012C  C$Si100x_TxTone.c$341$1$24         Si100x_TxTone
+C:   0000012F  A$Si100x_TxTone$1145               Si100x_TxTone
+C:   0000012F  C$Si100x_TxTone.c$342$1$24         Si100x_TxTone
+C:   00000132  A$Si100x_TxTone$1149               Si100x_TxTone
+C:   00000132  C$Si100x_TxTone.c$343$1$24         Si100x_TxTone
+C:   00000135  A$Si100x_TxTone$1153               Si100x_TxTone
+C:   00000135  C$Si100x_TxTone.c$344$1$24         Si100x_TxTone
+C:   00000137  A$Si100x_TxTone$1154               Si100x_TxTone
+C:   00000139  A$Si100x_TxTone$1155               Si100x_TxTone
+C:   0000013A  A$Si100x_TxTone$1156               Si100x_TxTone
+C:   0000013D  A$Si100x_TxTone$1157               Si100x_TxTone
+C:   0000013F  A$Si100x_TxTone$1162               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000013F  C$Si100x_TxTone.c$346$1$24         Si100x_TxTone
+C:   00000141  A$Si100x_TxTone$1166               Si100x_TxTone
+C:   00000141  C$Si100x_TxTone.c$347$1$24         Si100x_TxTone
+C:   00000143  A$Si100x_TxTone$1169               Si100x_TxTone
+C:   00000143  C$Si100x_TxTone.c$348$1$24         Si100x_TxTone
+C:   00000143  XG$phyWrite$0$0                    Si100x_TxTone
+C:   00000144  A$Si100x_TxTone$1183               Si100x_TxTone
+C:   00000144  C$Si100x_TxTone.c$357$1$24         Si100x_TxTone
+C:   00000144  G$phyRead$0$0                      Si100x_TxTone
+C:   00000144  _phyRead                           Si100x_TxTone
+C:   00000146  A$Si100x_TxTone$1187               Si100x_TxTone
+C:   00000146  C$Si100x_TxTone.c$362$1$26         Si100x_TxTone
+C:   00000148  A$Si100x_TxTone$1191               Si100x_TxTone
+C:   00000148  C$Si100x_TxTone.c$363$1$26         Si100x_TxTone
+C:   0000014A  A$Si100x_TxTone$1194               Si100x_TxTone
+C:   0000014A  C$Si100x_TxTone.c$364$1$26         Si100x_TxTone
+C:   0000014C  A$Si100x_TxTone$1198               Si100x_TxTone
+C:   0000014C  C$Si100x_TxTone.c$365$1$26         Si100x_TxTone
+C:   0000014F  A$Si100x_TxTone$1201               Si100x_TxTone
+C:   0000014F  C$Si100x_TxTone.c$366$1$26         Si100x_TxTone
+C:   00000152  A$Si100x_TxTone$1205               Si100x_TxTone
+C:   00000152  C$Si100x_TxTone.c$367$1$26         Si100x_TxTone
+C:   00000155  A$Si100x_TxTone$1209               Si100x_TxTone
+C:   00000155  C$Si100x_TxTone.c$368$1$26         Si100x_TxTone
+C:   00000157  A$Si100x_TxTone$1210               Si100x_TxTone
+C:   00000159  A$Si100x_TxTone$1211               Si100x_TxTone
+C:   0000015A  A$Si100x_TxTone$1212               Si100x_TxTone
+C:   0000015D  A$Si100x_TxTone$1213               Si100x_TxTone
+C:   0000015F  A$Si100x_TxTone$1217               Si100x_TxTone
+C:   0000015F  C$Si100x_TxTone.c$369$1$26         Si100x_TxTone
+C:   00000162  A$Si100x_TxTone$1221               Si100x_TxTone
+C:   00000162  C$Si100x_TxTone.c$370$1$26         Si100x_TxTone
+C:   00000164  A$Si100x_TxTone$1225               Si100x_TxTone
+C:   00000164  C$Si100x_TxTone.c$371$1$26         Si100x_TxTone
+C:   00000166  A$Si100x_TxTone$1230               Si100x_TxTone
+C:   00000166  C$Si100x_TxTone.c$373$1$26         Si100x_TxTone
+C:   00000166  C$Si100x_TxTone.c$374$1$26         Si100x_TxTone
+C:   00000166  XG$phyRead$0$0                     Si100x_TxTone
+C:   00000167  A$Si100x_TxTone$1246               Si100x_TxTone
+C:   00000167  C$Si100x_TxTone.c$393$1$26         Si100x_TxTone
+C:   00000167  C$Si100x_TxTone.c$397$1$28         Si100x_TxTone
+C:   00000167  G$RadioInit$0$0                    Si100x_TxTone
+C:   00000167  _RadioInit                         Si100x_TxTone
+C:   00000169  A$Si100x_TxTone$1249               Si100x_TxTone
+C:   00000169  C$Si100x_TxTone.c$399$1$28         Si100x_TxTone
+C:   0000016C  A$Si100x_TxTone$1250               Si100x_TxTone
+C:   0000016F  A$Si100x_TxTone$1253               Si100x_TxTone
+C:   0000016F  C$Si100x_TxTone.c$401$1$28         Si100x_TxTone
+C:   00000172  A$Si100x_TxTone$1254               Si100x_TxTone
+C:   00000175  A$Si100x_TxTone$1255               Si100x_TxTone
+C:   00000177  A$Si100x_TxTone$1258               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000177  C$Si100x_TxTone.c$402$1$28         Si100x_TxTone
+C:   0000017A  A$Si100x_TxTone$1261               Si100x_TxTone
+C:   0000017A  C$Si100x_TxTone.c$403$1$28         Si100x_TxTone
+C:   0000017D  A$Si100x_TxTone$1262               Si100x_TxTone
+C:   0000017F  A$Si100x_TxTone$1266               Si100x_TxTone
+C:   0000017F  C$Si100x_TxTone.c$404$1$28         Si100x_TxTone
+C:   00000180  A$Si100x_TxTone$1267               Si100x_TxTone
+C:   00000182  A$Si100x_TxTone$1270               Si100x_TxTone
+C:   00000182  C$Si100x_TxTone.c$405$1$28         Si100x_TxTone
+C:   00000185  A$Si100x_TxTone$1271               Si100x_TxTone
+C:   00000187  A$Si100x_TxTone$1275               Si100x_TxTone
+C:   00000187  C$Si100x_TxTone.c$406$1$28         Si100x_TxTone
+C:   0000018A  A$Si100x_TxTone$1277               Si100x_TxTone
+C:   0000018C  A$Si100x_TxTone$1280               Si100x_TxTone
+C:   0000018C  C$Si100x_TxTone.c$407$1$28         Si100x_TxTone
+C:   0000018F  A$Si100x_TxTone$1281               Si100x_TxTone
+C:   00000191  A$Si100x_TxTone$1285               Si100x_TxTone
+C:   00000191  C$Si100x_TxTone.c$409$1$28         Si100x_TxTone
+C:   00000194  A$Si100x_TxTone$1286               Si100x_TxTone
+C:   00000197  A$Si100x_TxTone$1289               Si100x_TxTone
+C:   00000197  C$Si100x_TxTone.c$411$1$28         Si100x_TxTone
+C:   00000199  A$Si100x_TxTone$1290               Si100x_TxTone
+C:   0000019A  A$Si100x_TxTone$1291               Si100x_TxTone
+C:   0000019D  A$Si100x_TxTone$1294               Si100x_TxTone
+C:   0000019D  C$Si100x_TxTone.c$414$2$29         Si100x_TxTone
+C:   000001A0  A$Si100x_TxTone$1295               Si100x_TxTone
+C:   000001A2  A$Si100x_TxTone$1299               Si100x_TxTone
+C:   000001A2  C$Si100x_TxTone.c$416$1$28         Si100x_TxTone
+C:   000001A3  A$Si100x_TxTone$1300               Si100x_TxTone
+C:   000001A6  A$Si100x_TxTone$1303               Si100x_TxTone
+C:   000001A6  C$Si100x_TxTone.c$419$2$30         Si100x_TxTone
+C:   000001A9  A$Si100x_TxTone$1304               Si100x_TxTone
+C:   000001AC  A$Si100x_TxTone$1305               Si100x_TxTone
+C:   000001AF  A$Si100x_TxTone$1308               Si100x_TxTone
+C:   000001AF  C$Si100x_TxTone.c$422$2$30         Si100x_TxTone
+C:   000001B2  A$Si100x_TxTone$1309               Si100x_TxTone
+C:   000001B5  A$Si100x_TxTone$1313               Si100x_TxTone
+C:   000001B5  C$Si100x_TxTone.c$423$2$30         Si100x_TxTone
+C:   000001B8  A$Si100x_TxTone$1316               Si100x_TxTone
+C:   000001B8  C$Si100x_TxTone.c$425$3$31         Si100x_TxTone
+C:   000001BB  A$Si100x_TxTone$1319               Si100x_TxTone
+C:   000001BB  C$Si100x_TxTone.c$426$3$31         Si100x_TxTone
+C:   000001BE  A$Si100x_TxTone$1320               Si100x_TxTone
+C:   000001C0  A$Si100x_TxTone$1324               Si100x_TxTone
+C:   000001C0  C$Si100x_TxTone.c$428$2$30         Si100x_TxTone
+C:   000001C3  A$Si100x_TxTone$1328               Si100x_TxTone
+C:   000001C3  C$Si100x_TxTone.c$430$1$28         Si100x_TxTone
+C:   000001C6  A$Si100x_TxTone$1332               Si100x_TxTone
+C:   000001C6  C$Si100x_TxTone.c$431$1$28         Si100x_TxTone
+C:   000001C6  XG$RadioInit$0$0                   Si100x_TxTone
+C:   000001C7  A$Si100x_TxTone$1347               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001C7  C$Si100x_TxTone.c$449$1$28         Si100x_TxTone
+C:   000001C7  C$Si100x_TxTone.c$454$1$33         Si100x_TxTone
+C:   000001C7  G$RadioInitSoftwareReset$0$0       Si100x_TxTone
+C:   000001C7  _RadioInitSoftwareReset            Si100x_TxTone
+C:   000001CA  A$Si100x_TxTone$1348               Si100x_TxTone
+C:   000001CD  A$Si100x_TxTone$1349               Si100x_TxTone
+C:   000001D0  A$Si100x_TxTone$1352               Si100x_TxTone
+C:   000001D0  C$Si100x_TxTone.c$455$1$33         Si100x_TxTone
+C:   000001D3  A$Si100x_TxTone$1353               Si100x_TxTone
+C:   000001D6  A$Si100x_TxTone$1354               Si100x_TxTone
+C:   000001D9  A$Si100x_TxTone$1357               Si100x_TxTone
+C:   000001D9  C$Si100x_TxTone.c$456$1$33         Si100x_TxTone
+C:   000001DC  A$Si100x_TxTone$1358               Si100x_TxTone
+C:   000001DF  A$Si100x_TxTone$1361               Si100x_TxTone
+C:   000001DF  C$Si100x_TxTone.c$457$1$33         Si100x_TxTone
+C:   000001E2  A$Si100x_TxTone$1362               Si100x_TxTone
+C:   000001E5  A$Si100x_TxTone$1365               Si100x_TxTone
+C:   000001E5  C$Si100x_TxTone.c$460$1$33         Si100x_TxTone
+C:   000001E8  A$Si100x_TxTone$1366               Si100x_TxTone
+C:   000001EB  A$Si100x_TxTone$1367               Si100x_TxTone
+C:   000001EE  A$Si100x_TxTone$1370               Si100x_TxTone
+C:   000001EE  C$Si100x_TxTone.c$463$1$33         Si100x_TxTone
+C:   000001F1  A$Si100x_TxTone$1371               Si100x_TxTone
+C:   000001F4  A$Si100x_TxTone$1375               Si100x_TxTone
+C:   000001F4  C$Si100x_TxTone.c$464$1$33         Si100x_TxTone
+C:   000001F7  A$Si100x_TxTone$1378               Si100x_TxTone
+C:   000001F7  C$Si100x_TxTone.c$466$2$34         Si100x_TxTone
+C:   000001FA  A$Si100x_TxTone$1381               Si100x_TxTone
+C:   000001FA  C$Si100x_TxTone.c$467$2$34         Si100x_TxTone
+C:   000001FD  A$Si100x_TxTone$1382               Si100x_TxTone
+C:   000001FF  A$Si100x_TxTone$1386               Si100x_TxTone
+C:   000001FF  C$Si100x_TxTone.c$469$1$33         Si100x_TxTone
+C:   00000202  A$Si100x_TxTone$1389               Si100x_TxTone
+C:   00000202  C$Si100x_TxTone.c$471$1$33         Si100x_TxTone
+C:   00000205  A$Si100x_TxTone$1390               Si100x_TxTone
+C:   00000208  A$Si100x_TxTone$1391               Si100x_TxTone
+C:   0000020A  A$Si100x_TxTone$1394               Si100x_TxTone
+C:   0000020A  C$Si100x_TxTone.c$473$1$33         Si100x_TxTone
+C:   0000020D  A$Si100x_TxTone$1397               Si100x_TxTone
+C:   0000020D  C$Si100x_TxTone.c$476$2$35         Si100x_TxTone
+C:   00000210  A$Si100x_TxTone$1398               Si100x_TxTone
+C:   00000213  A$Si100x_TxTone$1399               Si100x_TxTone
+C:   00000216  A$Si100x_TxTone$1402               Si100x_TxTone
+C:   00000216  C$Si100x_TxTone.c$479$2$35         Si100x_TxTone
+C:   00000219  A$Si100x_TxTone$1403               Si100x_TxTone
+C:   0000021C  A$Si100x_TxTone$1407               Si100x_TxTone
+C:   0000021C  C$Si100x_TxTone.c$480$2$35         Si100x_TxTone
+C:   0000021F  A$Si100x_TxTone$1410               Si100x_TxTone
+C:   0000021F  C$Si100x_TxTone.c$482$3$36         Si100x_TxTone
+C:   00000222  A$Si100x_TxTone$1413               Si100x_TxTone
+C:   00000222  C$Si100x_TxTone.c$483$3$36         Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000225  A$Si100x_TxTone$1414               Si100x_TxTone
+C:   00000227  A$Si100x_TxTone$1418               Si100x_TxTone
+C:   00000227  C$Si100x_TxTone.c$485$2$35         Si100x_TxTone
+C:   0000022A  A$Si100x_TxTone$1422               Si100x_TxTone
+C:   0000022A  C$Si100x_TxTone.c$488$1$33         Si100x_TxTone
+C:   0000022D  A$Si100x_TxTone$1426               Si100x_TxTone
+C:   0000022D  C$Si100x_TxTone.c$489$1$33         Si100x_TxTone
+C:   0000022D  XG$RadioInitSoftwareReset$0$0      Si100x_TxTone
+C:   0000022E  A$Si100x_TxTone$1440               Si100x_TxTone
+C:   0000022E  C$Si100x_TxTone.c$499$1$33         Si100x_TxTone
+C:   0000022E  G$delay$0$0                        Si100x_TxTone
+C:   0000022E  _delay                             Si100x_TxTone
+C:   00000230  A$Si100x_TxTone$1441               Si100x_TxTone
+C:   00000232  A$Si100x_TxTone$1444               Si100x_TxTone
+C:   00000232  C$Si100x_TxTone.c$503$1$38         Si100x_TxTone
+C:   00000233  A$Si100x_TxTone$1445               Si100x_TxTone
+C:   00000234  A$Si100x_TxTone$1446               Si100x_TxTone
+C:   00000235  A$Si100x_TxTone$1447               Si100x_TxTone
+C:   00000236  A$Si100x_TxTone$1448               Si100x_TxTone
+C:   00000237  A$Si100x_TxTone$1449               Si100x_TxTone
+C:   00000238  A$Si100x_TxTone$1450               Si100x_TxTone
+C:   00000239  A$Si100x_TxTone$1451               Si100x_TxTone
+C:   0000023B  A$Si100x_TxTone$1452               Si100x_TxTone
+C:   0000023D  A$Si100x_TxTone$1456               Si100x_TxTone
+C:   0000023D  C$Si100x_TxTone.c$505$1$38         Si100x_TxTone
+C:   0000023F  A$Si100x_TxTone$1460               Si100x_TxTone
+C:   0000023F  C$Si100x_TxTone.c$506$1$38         Si100x_TxTone
+C:   00000241  A$Si100x_TxTone$1463               Si100x_TxTone
+C:   00000241  C$Si100x_TxTone.c$508$1$38         Si100x_TxTone
+C:   00000244  A$Si100x_TxTone$1466               Si100x_TxTone
+C:   00000244  C$Si100x_TxTone.c$509$1$38         Si100x_TxTone
+C:   00000247  A$Si100x_TxTone$1469               Si100x_TxTone
+C:   00000247  C$Si100x_TxTone.c$511$1$38         Si100x_TxTone
+C:   0000024A  A$Si100x_TxTone$1472               Si100x_TxTone
+C:   0000024A  C$Si100x_TxTone.c$512$1$38         Si100x_TxTone
+C:   0000024D  A$Si100x_TxTone$1476               Si100x_TxTone
+C:   0000024D  C$Si100x_TxTone.c$514$1$38         Si100x_TxTone
+C:   0000024F  A$Si100x_TxTone$1480               Si100x_TxTone
+C:   0000024F  C$Si100x_TxTone.c$515$1$38         Si100x_TxTone
+C:   00000252  A$Si100x_TxTone$1484               Si100x_TxTone
+C:   00000252  C$Si100x_TxTone.c$516$1$38         Si100x_TxTone
+C:   00000254  A$Si100x_TxTone$1488               Si100x_TxTone
+C:   00000254  C$Si100x_TxTone.c$517$1$38         Si100x_TxTone
+C:   00000256  A$Si100x_TxTone$1491               Si100x_TxTone
+C:   00000256  C$Si100x_TxTone.c$518$1$38         Si100x_TxTone
+C:   00000256  XG$delay$0$0                       Si100x_TxTone
+C:   00000257  A$Si100x_TxTone$1505               Si100x_TxTone
+C:   00000257  C$Si100x_TxTone.c$529$1$38         Si100x_TxTone
+C:   00000257  G$SetTimeOut$0$0                   Si100x_TxTone
+C:   00000257  _SetTimeOut                        Si100x_TxTone
+C:   00000259  A$Si100x_TxTone$1506               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000025B  A$Si100x_TxTone$1509               Si100x_TxTone
+C:   0000025B  C$Si100x_TxTone.c$533$1$40         Si100x_TxTone
+C:   0000025C  A$Si100x_TxTone$1510               Si100x_TxTone
+C:   0000025D  A$Si100x_TxTone$1511               Si100x_TxTone
+C:   0000025E  A$Si100x_TxTone$1512               Si100x_TxTone
+C:   0000025F  A$Si100x_TxTone$1513               Si100x_TxTone
+C:   00000260  A$Si100x_TxTone$1514               Si100x_TxTone
+C:   00000261  A$Si100x_TxTone$1515               Si100x_TxTone
+C:   00000262  A$Si100x_TxTone$1516               Si100x_TxTone
+C:   00000264  A$Si100x_TxTone$1517               Si100x_TxTone
+C:   00000266  A$Si100x_TxTone$1521               Si100x_TxTone
+C:   00000266  C$Si100x_TxTone.c$535$1$40         Si100x_TxTone
+C:   00000268  A$Si100x_TxTone$1525               Si100x_TxTone
+C:   00000268  C$Si100x_TxTone.c$536$1$40         Si100x_TxTone
+C:   0000026A  A$Si100x_TxTone$1528               Si100x_TxTone
+C:   0000026A  C$Si100x_TxTone.c$538$1$40         Si100x_TxTone
+C:   0000026D  A$Si100x_TxTone$1531               Si100x_TxTone
+C:   0000026D  C$Si100x_TxTone.c$539$1$40         Si100x_TxTone
+C:   00000270  A$Si100x_TxTone$1534               Si100x_TxTone
+C:   00000270  C$Si100x_TxTone.c$541$1$40         Si100x_TxTone
+C:   00000273  A$Si100x_TxTone$1537               Si100x_TxTone
+C:   00000273  C$Si100x_TxTone.c$542$1$40         Si100x_TxTone
+C:   00000276  A$Si100x_TxTone$1541               Si100x_TxTone
+C:   00000276  C$Si100x_TxTone.c$544$1$40         Si100x_TxTone
+C:   00000278  A$Si100x_TxTone$1545               Si100x_TxTone
+C:   00000278  C$Si100x_TxTone.c$545$1$40         Si100x_TxTone
+C:   0000027A  A$Si100x_TxTone$1548               Si100x_TxTone
+C:   0000027A  C$Si100x_TxTone.c$546$1$40         Si100x_TxTone
+C:   0000027A  XG$SetTimeOut$0$0                  Si100x_TxTone
+C:   0000027B  A$Si100x_TxTone$1562               Si100x_TxTone
+C:   0000027B  C$Si100x_TxTone.c$558$1$40         Si100x_TxTone
+C:   0000027B  C$Si100x_TxTone.c$560$1$42         Si100x_TxTone
+C:   0000027B  G$T0_ISR$0$0                       Si100x_TxTone
+C:   0000027B  _T0_ISR                            Si100x_TxTone
+C:   0000027D  A$Si100x_TxTone$1566               Si100x_TxTone
+C:   0000027D  C$Si100x_TxTone.c$561$1$42         Si100x_TxTone
+C:   0000027F  A$Si100x_TxTone$1570               Si100x_TxTone
+C:   0000027F  C$Si100x_TxTone.c$562$1$42         Si100x_TxTone
+C:   00000281  A$Si100x_TxTone$1573               Si100x_TxTone
+C:   00000281  C$Si100x_TxTone.c$563$1$42         Si100x_TxTone
+C:   00000281  XG$T0_ISR$0$0                      Si100x_TxTone
+C:   00000282  A$Si100x_TxTone$1593               Si100x_TxTone
+C:   00000282  C$Si100x_TxTone.c$572$1$42         Si100x_TxTone
+C:   00000282  C$Si100x_TxTone.c$574$1$44         Si100x_TxTone
+C:   00000282  G$ClearTimeOut$0$0                 Si100x_TxTone
+C:   00000282  _ClearTimeOut                      Si100x_TxTone
+C:   00000284  A$Si100x_TxTone$1597               Si100x_TxTone
+C:   00000284  C$Si100x_TxTone.c$575$1$44         Si100x_TxTone
+C:   00000286  A$Si100x_TxTone$1601               Si100x_TxTone
+C:   00000286  C$Si100x_TxTone.c$576$1$44         Si100x_TxTone
+C:   00000288  A$Si100x_TxTone$1604               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000288  C$Si100x_TxTone.c$577$1$44         Si100x_TxTone
+C:   00000288  XG$ClearTimeOut$0$0                Si100x_TxTone
+C:   00000289  A$Si100x_TxTone$1619               Si100x_TxTone
+C:   00000289  C$Si100x_TxTone.c$587$1$44         Si100x_TxTone
+C:   00000289  G$setTRxFrequency$0$0              Si100x_TxTone
+C:   00000289  _setTRxFrequency                   Si100x_TxTone
+C:   0000028C  A$Si100x_TxTone$1620               Si100x_TxTone
+C:   0000028F  A$Si100x_TxTone$1621               Si100x_TxTone
+C:   00000292  A$Si100x_TxTone$1622               Si100x_TxTone
+C:   00000294  A$Si100x_TxTone$1625               Si100x_TxTone
+C:   00000294  C$Si100x_TxTone.c$592$1$46         Si100x_TxTone
+C:   00000295  A$Si100x_TxTone$1626               Si100x_TxTone
+C:   00000296  A$Si100x_TxTone$1627               Si100x_TxTone
+C:   00000298  A$Si100x_TxTone$1628               Si100x_TxTone
+C:   0000029A  A$Si100x_TxTone$1629               Si100x_TxTone
+C:   0000029C  A$Si100x_TxTone$1630               Si100x_TxTone
+C:   0000029E  A$Si100x_TxTone$1631               Si100x_TxTone
+C:   000002A0  A$Si100x_TxTone$1632               Si100x_TxTone
+C:   000002A2  A$Si100x_TxTone$1633               Si100x_TxTone
+C:   000002A4  A$Si100x_TxTone$1634               Si100x_TxTone
+C:   000002A6  A$Si100x_TxTone$1635               Si100x_TxTone
+C:   000002A9  A$Si100x_TxTone$1639               Si100x_TxTone
+C:   000002A9  C$Si100x_TxTone.c$594$2$47         Si100x_TxTone
+C:   000002AB  A$Si100x_TxTone$1640               Si100x_TxTone
+C:   000002AD  A$Si100x_TxTone$1641               Si100x_TxTone
+C:   000002AF  A$Si100x_TxTone$1642               Si100x_TxTone
+C:   000002B1  A$Si100x_TxTone$1643               Si100x_TxTone
+C:   000002B3  A$Si100x_TxTone$1644               Si100x_TxTone
+C:   000002B5  A$Si100x_TxTone$1645               Si100x_TxTone
+C:   000002B7  A$Si100x_TxTone$1646               Si100x_TxTone
+C:   000002B9  A$Si100x_TxTone$1647               Si100x_TxTone
+C:   000002BB  A$Si100x_TxTone$1650               Si100x_TxTone
+C:   000002BB  C$Si100x_TxTone.c$595$1$46         Si100x_TxTone
+C:   000002BE  A$Si100x_TxTone$1651               Si100x_TxTone
+C:   000002C1  A$Si100x_TxTone$1652               Si100x_TxTone
+C:   000002C4  A$Si100x_TxTone$1653               Si100x_TxTone
+C:   000002C7  A$Si100x_TxTone$1654               Si100x_TxTone
+C:   000002CA  A$Si100x_TxTone$1655               Si100x_TxTone
+C:   000002CD  A$Si100x_TxTone$1656               Si100x_TxTone
+C:   000002D0  A$Si100x_TxTone$1657               Si100x_TxTone
+C:   000002D2  A$Si100x_TxTone$1658               Si100x_TxTone
+C:   000002D5  A$Si100x_TxTone$1659               Si100x_TxTone
+C:   000002D7  A$Si100x_TxTone$1662               Si100x_TxTone
+C:   000002D7  C$Si100x_TxTone.c$596$2$47         Si100x_TxTone
+C:   000002D9  A$Si100x_TxTone$1663               Si100x_TxTone
+C:   000002DC  A$Si100x_TxTone$1664               Si100x_TxTone
+C:   000002DF  A$Si100x_TxTone$1665               Si100x_TxTone
+C:   000002E2  A$Si100x_TxTone$1666               Si100x_TxTone
+C:   000002E5  A$Si100x_TxTone$1667               Si100x_TxTone
+C:   000002E8  A$Si100x_TxTone$1668               Si100x_TxTone
+C:   000002EA  A$Si100x_TxTone$1669               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002EC  A$Si100x_TxTone$1670               Si100x_TxTone
+C:   000002EF  A$Si100x_TxTone$1671               Si100x_TxTone
+C:   000002F1  A$Si100x_TxTone$1672               Si100x_TxTone
+C:   000002F3  A$Si100x_TxTone$1673               Si100x_TxTone
+C:   000002F5  A$Si100x_TxTone$1674               Si100x_TxTone
+C:   000002F6  A$Si100x_TxTone$1675               Si100x_TxTone
+C:   000002F8  A$Si100x_TxTone$1676               Si100x_TxTone
+C:   000002F9  A$Si100x_TxTone$1677               Si100x_TxTone
+C:   000002FA  A$Si100x_TxTone$1678               Si100x_TxTone
+C:   000002FC  A$Si100x_TxTone$1679               Si100x_TxTone
+C:   000002FE  A$Si100x_TxTone$1680               Si100x_TxTone
+C:   000002FF  A$Si100x_TxTone$1681               Si100x_TxTone
+C:   00000301  A$Si100x_TxTone$1682               Si100x_TxTone
+C:   00000303  A$Si100x_TxTone$1683               Si100x_TxTone
+C:   00000304  A$Si100x_TxTone$1684               Si100x_TxTone
+C:   00000306  A$Si100x_TxTone$1685               Si100x_TxTone
+C:   00000308  A$Si100x_TxTone$1686               Si100x_TxTone
+C:   00000309  A$Si100x_TxTone$1687               Si100x_TxTone
+C:   0000030B  A$Si100x_TxTone$1690               Si100x_TxTone
+C:   0000030B  C$Si100x_TxTone.c$597$2$47         Si100x_TxTone
+C:   0000030E  A$Si100x_TxTone$1691               Si100x_TxTone
+C:   00000311  A$Si100x_TxTone$1692               Si100x_TxTone
+C:   00000312  A$Si100x_TxTone$1693               Si100x_TxTone
+C:   00000314  A$Si100x_TxTone$1694               Si100x_TxTone
+C:   00000316  A$Si100x_TxTone$1695               Si100x_TxTone
+C:   00000319  A$Si100x_TxTone$1696               Si100x_TxTone
+C:   0000031C  A$Si100x_TxTone$1697               Si100x_TxTone
+C:   0000031F  A$Si100x_TxTone$1698               Si100x_TxTone
+C:   00000321  A$Si100x_TxTone$1699               Si100x_TxTone
+C:   00000324  A$Si100x_TxTone$1700               Si100x_TxTone
+C:   00000327  A$Si100x_TxTone$1701               Si100x_TxTone
+C:   0000032A  A$Si100x_TxTone$1702               Si100x_TxTone
+C:   0000032D  A$Si100x_TxTone$1703               Si100x_TxTone
+C:   0000032F  A$Si100x_TxTone$1704               Si100x_TxTone
+C:   00000331  A$Si100x_TxTone$1707               Si100x_TxTone
+C:   00000331  C$Si100x_TxTone.c$598$2$47         Si100x_TxTone
+C:   00000333  A$Si100x_TxTone$1708               Si100x_TxTone
+C:   00000335  A$Si100x_TxTone$1709               Si100x_TxTone
+C:   00000337  A$Si100x_TxTone$1710               Si100x_TxTone
+C:   00000339  A$Si100x_TxTone$1711               Si100x_TxTone
+C:   0000033A  A$Si100x_TxTone$1712               Si100x_TxTone
+C:   0000033C  A$Si100x_TxTone$1713               Si100x_TxTone
+C:   0000033E  A$Si100x_TxTone$1714               Si100x_TxTone
+C:   0000033F  A$Si100x_TxTone$1715               Si100x_TxTone
+C:   00000341  A$Si100x_TxTone$1716               Si100x_TxTone
+C:   00000343  A$Si100x_TxTone$1717               Si100x_TxTone
+C:   00000344  A$Si100x_TxTone$1718               Si100x_TxTone
+C:   00000346  A$Si100x_TxTone$1721               Si100x_TxTone
+C:   00000346  C$Si100x_TxTone.c$599$2$47         Si100x_TxTone
+C:   00000349  A$Si100x_TxTone$1722               Si100x_TxTone
+C:   0000034C  A$Si100x_TxTone$1726               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000034C  C$Si100x_TxTone.c$603$2$48         Si100x_TxTone
+C:   0000034E  A$Si100x_TxTone$1727               Si100x_TxTone
+C:   00000350  A$Si100x_TxTone$1728               Si100x_TxTone
+C:   00000352  A$Si100x_TxTone$1729               Si100x_TxTone
+C:   00000354  A$Si100x_TxTone$1730               Si100x_TxTone
+C:   00000356  A$Si100x_TxTone$1731               Si100x_TxTone
+C:   00000358  A$Si100x_TxTone$1732               Si100x_TxTone
+C:   0000035A  A$Si100x_TxTone$1733               Si100x_TxTone
+C:   0000035C  A$Si100x_TxTone$1734               Si100x_TxTone
+C:   0000035E  A$Si100x_TxTone$1737               Si100x_TxTone
+C:   0000035E  C$Si100x_TxTone.c$604$1$46         Si100x_TxTone
+C:   00000361  A$Si100x_TxTone$1738               Si100x_TxTone
+C:   00000364  A$Si100x_TxTone$1739               Si100x_TxTone
+C:   00000367  A$Si100x_TxTone$1740               Si100x_TxTone
+C:   0000036A  A$Si100x_TxTone$1741               Si100x_TxTone
+C:   0000036D  A$Si100x_TxTone$1742               Si100x_TxTone
+C:   00000370  A$Si100x_TxTone$1743               Si100x_TxTone
+C:   00000373  A$Si100x_TxTone$1744               Si100x_TxTone
+C:   00000375  A$Si100x_TxTone$1745               Si100x_TxTone
+C:   00000378  A$Si100x_TxTone$1746               Si100x_TxTone
+C:   0000037A  A$Si100x_TxTone$1747               Si100x_TxTone
+C:   0000037C  A$Si100x_TxTone$1750               Si100x_TxTone
+C:   0000037C  C$Si100x_TxTone.c$605$2$48         Si100x_TxTone
+C:   0000037E  A$Si100x_TxTone$1751               Si100x_TxTone
+C:   00000381  A$Si100x_TxTone$1752               Si100x_TxTone
+C:   00000384  A$Si100x_TxTone$1753               Si100x_TxTone
+C:   00000387  A$Si100x_TxTone$1754               Si100x_TxTone
+C:   0000038A  A$Si100x_TxTone$1755               Si100x_TxTone
+C:   0000038D  A$Si100x_TxTone$1756               Si100x_TxTone
+C:   0000038E  A$Si100x_TxTone$1757               Si100x_TxTone
+C:   00000390  A$Si100x_TxTone$1758               Si100x_TxTone
+C:   00000393  A$Si100x_TxTone$1759               Si100x_TxTone
+C:   00000395  A$Si100x_TxTone$1760               Si100x_TxTone
+C:   00000397  A$Si100x_TxTone$1761               Si100x_TxTone
+C:   00000399  A$Si100x_TxTone$1762               Si100x_TxTone
+C:   0000039A  A$Si100x_TxTone$1763               Si100x_TxTone
+C:   0000039C  A$Si100x_TxTone$1764               Si100x_TxTone
+C:   0000039D  A$Si100x_TxTone$1765               Si100x_TxTone
+C:   0000039E  A$Si100x_TxTone$1766               Si100x_TxTone
+C:   000003A0  A$Si100x_TxTone$1767               Si100x_TxTone
+C:   000003A2  A$Si100x_TxTone$1768               Si100x_TxTone
+C:   000003A3  A$Si100x_TxTone$1769               Si100x_TxTone
+C:   000003A5  A$Si100x_TxTone$1770               Si100x_TxTone
+C:   000003A7  A$Si100x_TxTone$1771               Si100x_TxTone
+C:   000003A8  A$Si100x_TxTone$1772               Si100x_TxTone
+C:   000003AA  A$Si100x_TxTone$1773               Si100x_TxTone
+C:   000003AC  A$Si100x_TxTone$1774               Si100x_TxTone
+C:   000003AD  A$Si100x_TxTone$1775               Si100x_TxTone
+C:   000003AF  A$Si100x_TxTone$1778               Si100x_TxTone
+C:   000003AF  C$Si100x_TxTone.c$606$2$48         Si100x_TxTone
+C:   000003B2  A$Si100x_TxTone$1779               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003B5  A$Si100x_TxTone$1780               Si100x_TxTone
+C:   000003B6  A$Si100x_TxTone$1781               Si100x_TxTone
+C:   000003B8  A$Si100x_TxTone$1782               Si100x_TxTone
+C:   000003BA  A$Si100x_TxTone$1783               Si100x_TxTone
+C:   000003BD  A$Si100x_TxTone$1784               Si100x_TxTone
+C:   000003C0  A$Si100x_TxTone$1785               Si100x_TxTone
+C:   000003C3  A$Si100x_TxTone$1786               Si100x_TxTone
+C:   000003C5  A$Si100x_TxTone$1787               Si100x_TxTone
+C:   000003C8  A$Si100x_TxTone$1788               Si100x_TxTone
+C:   000003CB  A$Si100x_TxTone$1789               Si100x_TxTone
+C:   000003CE  A$Si100x_TxTone$1790               Si100x_TxTone
+C:   000003D1  A$Si100x_TxTone$1791               Si100x_TxTone
+C:   000003D3  A$Si100x_TxTone$1792               Si100x_TxTone
+C:   000003D5  A$Si100x_TxTone$1795               Si100x_TxTone
+C:   000003D5  C$Si100x_TxTone.c$607$2$48         Si100x_TxTone
+C:   000003D7  A$Si100x_TxTone$1796               Si100x_TxTone
+C:   000003D9  A$Si100x_TxTone$1797               Si100x_TxTone
+C:   000003DB  A$Si100x_TxTone$1798               Si100x_TxTone
+C:   000003DD  A$Si100x_TxTone$1799               Si100x_TxTone
+C:   000003DE  A$Si100x_TxTone$1800               Si100x_TxTone
+C:   000003E0  A$Si100x_TxTone$1801               Si100x_TxTone
+C:   000003E2  A$Si100x_TxTone$1802               Si100x_TxTone
+C:   000003E3  A$Si100x_TxTone$1803               Si100x_TxTone
+C:   000003E5  A$Si100x_TxTone$1804               Si100x_TxTone
+C:   000003E7  A$Si100x_TxTone$1805               Si100x_TxTone
+C:   000003E8  A$Si100x_TxTone$1806               Si100x_TxTone
+C:   000003EA  A$Si100x_TxTone$1807               Si100x_TxTone
+C:   000003EC  A$Si100x_TxTone$1808               Si100x_TxTone
+C:   000003EE  A$Si100x_TxTone$1809               Si100x_TxTone
+C:   000003F0  A$Si100x_TxTone$1810               Si100x_TxTone
+C:   000003F2  A$Si100x_TxTone$1811               Si100x_TxTone
+C:   000003F3  A$Si100x_TxTone$1812               Si100x_TxTone
+C:   000003F5  A$Si100x_TxTone$1813               Si100x_TxTone
+C:   000003F7  A$Si100x_TxTone$1814               Si100x_TxTone
+C:   000003F8  A$Si100x_TxTone$1815               Si100x_TxTone
+C:   000003FA  A$Si100x_TxTone$1816               Si100x_TxTone
+C:   000003FC  A$Si100x_TxTone$1817               Si100x_TxTone
+C:   000003FD  A$Si100x_TxTone$1818               Si100x_TxTone
+C:   000003FF  A$Si100x_TxTone$1822               Si100x_TxTone
+C:   000003FF  C$Si100x_TxTone.c$610$1$46         Si100x_TxTone
+C:   00000401  A$Si100x_TxTone$1823               Si100x_TxTone
+C:   00000402  A$Si100x_TxTone$1824               Si100x_TxTone
+C:   00000404  A$Si100x_TxTone$1827               Si100x_TxTone
+C:   00000404  C$Si100x_TxTone.c$612$1$46         Si100x_TxTone
+C:   00000406  A$Si100x_TxTone$1828               Si100x_TxTone
+C:   00000408  A$Si100x_TxTone$1829               Si100x_TxTone
+C:   0000040A  A$Si100x_TxTone$1830               Si100x_TxTone
+C:   0000040C  A$Si100x_TxTone$1833               Si100x_TxTone
+C:   0000040C  C$Si100x_TxTone.c$614$1$46         Si100x_TxTone
+C:   0000040F  A$Si100x_TxTone$1834               Si100x_TxTone
+C:   00000412  A$Si100x_TxTone$1837               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000412  C$Si100x_TxTone.c$615$1$46         Si100x_TxTone
+C:   00000415  A$Si100x_TxTone$1838               Si100x_TxTone
+C:   00000418  A$Si100x_TxTone$1839               Si100x_TxTone
+C:   0000041B  A$Si100x_TxTone$1842               Si100x_TxTone
+C:   0000041B  C$Si100x_TxTone.c$616$1$46         Si100x_TxTone
+C:   0000041E  A$Si100x_TxTone$1843               Si100x_TxTone
+C:   00000421  A$Si100x_TxTone$1844               Si100x_TxTone
+C:   00000424  A$Si100x_TxTone$1847               Si100x_TxTone
+C:   00000424  C$Si100x_TxTone.c$618$1$46         Si100x_TxTone
+C:   00000424  XG$setTRxFrequency$0$0             Si100x_TxTone
+C:   00000425  A$Si100x_TxTone$1861               Si100x_TxTone
+C:   00000425  C$Si100x_TxTone.c$628$1$46         Si100x_TxTone
+C:   00000425  G$divideWithRounding$0$0           Si100x_TxTone
+C:   00000425  _divideWithRounding                Si100x_TxTone
+C:   00000427  A$Si100x_TxTone$1862               Si100x_TxTone
+C:   00000429  A$Si100x_TxTone$1863               Si100x_TxTone
+C:   0000042B  A$Si100x_TxTone$1864               Si100x_TxTone
+C:   0000042C  A$Si100x_TxTone$1867               Si100x_TxTone
+C:   0000042C  C$Si100x_TxTone.c$630$1$50         Si100x_TxTone
+C:   0000042E  A$Si100x_TxTone$1868               Si100x_TxTone
+C:   0000042F  A$Si100x_TxTone$1869               Si100x_TxTone
+C:   00000430  A$Si100x_TxTone$1870               Si100x_TxTone
+C:   00000431  A$Si100x_TxTone$1871               Si100x_TxTone
+C:   00000433  A$Si100x_TxTone$1872               Si100x_TxTone
+C:   00000434  A$Si100x_TxTone$1873               Si100x_TxTone
+C:   00000435  A$Si100x_TxTone$1874               Si100x_TxTone
+C:   00000437  A$Si100x_TxTone$1875               Si100x_TxTone
+C:   00000438  A$Si100x_TxTone$1876               Si100x_TxTone
+C:   00000439  A$Si100x_TxTone$1877               Si100x_TxTone
+C:   0000043B  A$Si100x_TxTone$1878               Si100x_TxTone
+C:   0000043C  A$Si100x_TxTone$1879               Si100x_TxTone
+C:   0000043D  A$Si100x_TxTone$1880               Si100x_TxTone
+C:   0000043E  A$Si100x_TxTone$1881               Si100x_TxTone
+C:   0000043F  A$Si100x_TxTone$1882               Si100x_TxTone
+C:   00000440  A$Si100x_TxTone$1883               Si100x_TxTone
+C:   00000441  A$Si100x_TxTone$1884               Si100x_TxTone
+C:   00000442  A$Si100x_TxTone$1885               Si100x_TxTone
+C:   00000443  A$Si100x_TxTone$1886               Si100x_TxTone
+C:   00000444  A$Si100x_TxTone$1887               Si100x_TxTone
+C:   00000445  A$Si100x_TxTone$1888               Si100x_TxTone
+C:   00000446  A$Si100x_TxTone$1889               Si100x_TxTone
+C:   00000447  A$Si100x_TxTone$1892               Si100x_TxTone
+C:   00000447  C$Si100x_TxTone.c$631$1$50         Si100x_TxTone
+C:   0000044A  A$Si100x_TxTone$1893               Si100x_TxTone
+C:   0000044D  A$Si100x_TxTone$1894               Si100x_TxTone
+C:   00000450  A$Si100x_TxTone$1895               Si100x_TxTone
+C:   00000453  A$Si100x_TxTone$1896               Si100x_TxTone
+C:   00000455  A$Si100x_TxTone$1897               Si100x_TxTone
+C:   00000457  A$Si100x_TxTone$1898               Si100x_TxTone
+C:   00000459  A$Si100x_TxTone$1899               Si100x_TxTone
+C:   0000045A  A$Si100x_TxTone$1900               Si100x_TxTone
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000006D    000004D6 =        1238. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000045D  A$Si100x_TxTone$1905               Si100x_TxTone
+C:   0000045D  C$Si100x_TxTone.c$632$1$50         Si100x_TxTone
+C:   0000045D  C$Si100x_TxTone.c$633$1$50         Si100x_TxTone
+C:   0000045D  XG$divideWithRounding$0$0          Si100x_TxTone
+C:   0000045E  A$Si100x_TxTone$1918               Si100x_TxTone
+C:   0000045E  C$Si100x_TxTone.c$643$1$50         Si100x_TxTone
+C:   0000045E  G$setTxPower$0$0                   Si100x_TxTone
+C:   0000045E  _setTxPower                        Si100x_TxTone
+C:   00000460  A$Si100x_TxTone$1921               Si100x_TxTone
+C:   00000460  C$Si100x_TxTone.c$645$1$52         Si100x_TxTone
+C:   00000462  A$Si100x_TxTone$1922               Si100x_TxTone
+C:   00000463  A$Si100x_TxTone$1923               Si100x_TxTone
+C:   00000465  A$Si100x_TxTone$1924               Si100x_TxTone
+C:   00000468  A$Si100x_TxTone$1925               Si100x_TxTone
+C:   0000046B  A$Si100x_TxTone$1928               Si100x_TxTone
+C:   0000046B  C$Si100x_TxTone.c$646$1$52         Si100x_TxTone
+C:   0000046B  XG$setTxPower$0$0                  Si100x_TxTone
+C:   0000046C  __divulong                         _divulong
+C:   000004D1  __mullong                          _mullong
+C:   000004D1  __mullong_dummy                    _mullong
+C:   0000053F  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+
+Files Linked                              [ module(s) ]
+
+C:\SiLabs\MCU\Examples\Si100x\EZRadioPRO\TxTone\Si100x_TxTone.rel
+                                          [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files (x86)\SDCC\bin\..\lib\small/liblong.lib
+                                          [ _divulong.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/liblong.lib
+                                          [ _mullong.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files (x86)\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+

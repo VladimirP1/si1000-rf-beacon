@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_timer0_two_8bittimers" label="Timer0 two 8bitTimers" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="Dual 8-bit Timer0 Example"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>Dual 8-bit Timer0 Example&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example program uses Timer0 in dual 8-bit counter mode to blink
+LED05 and LED15 at 2Hz and 5Hz, respectively.&lt;/pre></description>
+    <openedResource>F97x_Timer0_two_8bitTimers.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

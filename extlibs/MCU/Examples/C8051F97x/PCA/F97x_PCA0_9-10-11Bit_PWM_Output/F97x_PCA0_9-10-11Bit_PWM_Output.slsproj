@@ -1,0 +1,8 @@
+<project name="F97x_PCA0_9-10-11Bit_PWM_Output" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="PCA"/>
+  <folder name="src" uri="src">
+    <file name="F97x_PCA0_9-10-11Bit_PWM_Output.c"/>
+  </folder>
+  <property key="initiallyOpenedResource" value="src/F97x_PCA0_9-10-11Bit_PWM_Output.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

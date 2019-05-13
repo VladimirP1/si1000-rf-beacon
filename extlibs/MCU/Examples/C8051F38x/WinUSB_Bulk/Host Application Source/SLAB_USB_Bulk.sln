@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SLAB_USB_Bulk", "SLAB_USB_Bulk.vcxproj", "{1E241655-C69E-42BB-B9BE-3B133422A7DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E241655-C69E-42BB-B9BE-3B133422A7DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E241655-C69E-42BB-B9BE-3B133422A7DC}.Debug|Win32.Build.0 = Debug|Win32
+		{1E241655-C69E-42BB-B9BE-3B133422A7DC}.Release|Win32.ActiveCfg = Release|Win32
+		{1E241655-C69E-42BB-B9BE-3B133422A7DC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

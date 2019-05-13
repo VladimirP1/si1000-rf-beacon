@@ -1,0 +1,13 @@
+<project name="F97x_Flash" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="Flash"/>
+  <folder name="src" uri="src">
+    <file name="F970_Flash.c"/>
+    <file name="F970_FlashPrimitives.c"/>
+    <file name="F970_FlashUtils.c"/>
+    <file name="F970_FlashPrimitives.h"/>
+    <file name="F970_FlashUtils.h"/>
+  </folder>
+  <includePath languageCompatibility="c asm" uri="unresolved:$%7BProjDirPath%7D/src/"/>
+  <property key="initiallyOpenedResource" value="src/F970_Flash.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

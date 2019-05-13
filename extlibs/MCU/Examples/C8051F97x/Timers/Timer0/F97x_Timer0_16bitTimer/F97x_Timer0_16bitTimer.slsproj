@@ -1,0 +1,8 @@
+<project name="F97x_Timer0_16bitTimer" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="Timers|Timer0"/>
+  <folder name="src" uri="src">
+    <file name="F97x_Timer0_16bitTimer.c"/>
+  </folder>
+  <property key="initiallyOpenedResource" value="src/F97x_Timer0_16bitTimer.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

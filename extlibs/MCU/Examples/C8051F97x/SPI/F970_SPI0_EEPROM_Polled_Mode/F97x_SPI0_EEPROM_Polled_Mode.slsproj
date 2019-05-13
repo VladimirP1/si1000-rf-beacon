@@ -1,0 +1,8 @@
+<project name="F97x_SPI0_EEPROM_Polled_Mode" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="SPI"/>
+  <folder name="src" uri="src">
+    <file name="F970_SPI0_EEPROM_Polled_Mode.c"/>
+  </folder>
+  <property key="initiallyOpenedResource" value="src/F970_SPI0_EEPROM_Polled_Mode.c"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>

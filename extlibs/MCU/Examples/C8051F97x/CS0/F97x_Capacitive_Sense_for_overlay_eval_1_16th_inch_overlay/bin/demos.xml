@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentItems>
+  <contentItem name="com.silabs.content.demos.c8051f970dk.kit.si8051.c8051f970dk.demo.f97x_capacitive_sense_for_overlay_eval_1_16th_inch_overlay" label="F97x Capacitive Sense for overlay eval - 1 16th inch overlay" contentType="Demos" contentRoot=".">
+    <property key="demos.blurb" value="Capacitive Sensing library example tuned for a 1/16 inch overlay"/>
+    <property key="core.partCompatibility" value="com.silabs.mcu.si8051.c8051f970_g"/>
+    <property key="core.kitCompatibility" value="com.silabs.kit.si8051.c8051f970dk"/>
+    <description>&lt;h1>&lt;b>Capacitive Sensing library example tuned for a 1/16 inch overlay&lt;/b>&lt;/h1>
+&lt;p/>&lt;pre>
+This example uses the capacitive sensing firmware library to detect
+touches on the 24 sensors found on the F970 target board.  The library
+configuration files are set to use touch detection thresholds appropriate
+for sensors with a 1/16 inch acrylic overlay.
+
+When firmware detects a touch on the F970 target board's slider, the
+LEDs adjacent to the sensors being touched will turn on.  When firmware
+detects a single touch anywhere in the 4x5 grid of sensors,  LED05 turns
+on.  If firmware detects two or more sensors in the 4x5 grid, both LED05
+and LED15 turn on.
+
+For more information on the capacitive sense library and 
+Capacitive Sense Profiler, see AN0828: “Capacitive Sensing Library Overview”
+and AN0829: “Capacitive Sensing Library Configuration Guide” by clicking the
+Application Notes tile from the main Simplicity Studio launcher.&lt;/pre></description>
+    <openedResource>F97x_Capacitive_Sense_for_overlay_eval_1_16th_inch_overlay.hex</openedResource>
+    <openedFolder>../</openedFolder>
+  </contentItem>
+</contentItems>

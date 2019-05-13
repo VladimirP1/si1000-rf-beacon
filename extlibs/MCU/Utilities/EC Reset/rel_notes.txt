@@ -1,0 +1,25 @@
+
+Serial Adapter/EC Firmware Reset Utility v1.0 Release Notes
+Copyright (C) 2004 Silicon Laboratories, Inc.
+
+
+This release contains the following components:
+
+        * ECReset.exe
+        * REL_NOTES.TXT (this file)
+
+
+KNOWN ISSUES AND LIMITATIONS
+----------------------------
+	
+	1.) Only EC1 and EC2 serial adapters are supported with this version. 
+
+
+REVISION HISTORY
+----------------
+Version 1.0
+	Support added for EC2 serial adapters.
+
+version 0.1
+	Initial Release
+

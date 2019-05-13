@@ -1,0 +1,36 @@
+<project name="F970_capacitive_sense_for_power_eval_20_ms_sleep_period" contentRoot="." partCompatibility="mcu.8051.c8051.f970" boardCompatibility="c8051f970dk">
+  <property key="category" value="CapacitiveSense"/>
+  <folder includeAllFiles="false" includeAllFolders="false" name="inc" uri="inc">
+    <folder includeAllFiles="false" includeAllFolders="false" name="config" uri="config">
+      <file name="cslib_config.h"/>
+      <file name="cslib_hwconfig.h"/>
+      <file name="cslib_sensor_descriptors.h"/>
+    </folder>
+    <file name="device_init.h"/>
+  </folder>
+  <folder includeAllFiles="false" includeAllFolders="false" name="src" uri="src">
+    <file name="device_init.c"/>
+    <file name="main.c"/>
+    <file name="STARTUP.A51"/>
+    <file name="SliderLEDControl.c"/>
+    <file name="SliderLEDControl.h"/>
+    <file name="STARTUP.A51"/>
+  </folder>
+  <folder includeAllFiles="false" includeAllFolders="false" name="slider" uri="slider">
+    <file name="SliderConfig.c"/>
+    <file name="SliderConfig.h"/>
+    <file name="SliderDescriptors.c"/>
+    <file name="SliderDescriptors.h"/>
+    <file name="SLIDERLIBRARY.LIB"/>
+    <file name="SliderLibrary.h"/>
+  </folder>
+  <includePath languageCompatibility="c asm" uri="studio:/project/inc/config/"/>
+  <includePath languageCompatibility="c asm" uri="studio:/project/inc/"/>
+  <includePath languageCompatibility="c asm" uri="studio:/project/slider/"/>
+  <toolOption optionId="com.silabs.ide.si8051.keil.assembler.category.symbols.def" toolId="com.silabs.ide.si8051.keil.toolchain.assembler" value="SILABS_STARTUP=1"/>
+  <module id="com.silabs.sdk.si8051.external.efm8Library.capsense_serial_interface"/>
+  <module id="com.silabs.sdk.si8051.external.efm8Library.capsense_core"/>
+  <libraryFile languageCompatibility="c" uri="studio:/project/slider/SLIDERLIBRARY.LIB"/>
+  <toolOption optionId="com.silabs.ide.si8051.keil.linker.category.misc.extraflags" toolId="com.silabs.ide.si8051.keil.toolchain.linker" value="OVERLAY(?PR?_CSLIB_CHECKNOISEONCHANNEL?NOISE_ROUTINES ~ ?CO?FILTER_CONFIG)"/>
+  <module id="com.silabs.sdk.si8051.shared"/>
+</project>
